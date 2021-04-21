@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on **MindBehind**
 
-- 🌱 I’m currently learning **TypeScript, GraphQL, and Docker**
+- 🌱 I’m currently learning **TypeScript, GraphQL and Docker**
 
 - 👨‍💻 All of my projects are available at [https://erbilnas.com/#/portfolio](https://erbilnas.com/#/portfolio)
 
