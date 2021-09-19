@@ -7,9 +7,9 @@
 
 <p align="left"> <a href="https://twitter.com/erbilnas" target="blank"><img src="https://img.shields.io/twitter/follow/erbilnas?logo=twitter&style=for-the-badge" alt="erbilnas" /></a> </p>
 
-- 🔭 I’m currently working on **MindBehind**
+- 🔭 I’m currently working on **Trendyol**
 
-- 🌱 I’m currently learning **TypeScript, GraphQL and Docker**
+- 🌱 I’m currently learning **Svelte and Tailwind CSS**
 
 - 👨‍💻 All of my projects are available at [https://erbilnas.com/#/portfolio](https://erbilnas.com/#/portfolio)
 
