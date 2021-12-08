@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=erbilnas" alt="erbilnas" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/erbilnas" target="blank"><img src="https://img.shields.io/twitter/follow/erbilnas?logo=twitter&style=for-the-badge" alt="erbilnas" /></a> </p>
+<p align="left"> <a href="https://twitter.com/koalafied_dev" target="blank"><img src="https://img.shields.io/twitter/follow/erbilnas?logo=twitter&style=for-the-badge" alt="erbilnas" /></a> </p>
 
 - 🔭 I’m currently working on **Trendyol**
 
