@@ -23,7 +23,7 @@
 
 <h3 align="left">It's-a Me, Erbil!</h3>
 
-I don’t know how to start introducing myself. I can briefly say that I'm an always-learner software engineer who wants to build his future with zeros and ones. I’m 24 years old and I’ve been living in Turkey since I was born, which makes me a Turk naturally. Anyway, let me tell you a little bit of my physical appearance. I’ve got a normal height and slightly weaker weight than usual. Usually, I’m getting around with short hair and a beard. If it’s a sunny day, you’ll see me wearing sunglasses because I’ve got an issue in my eyes. Those damn sun rays, I hate them.
+I don’t know how to start introducing myself. I can briefly say that I'm an always-learner software engineer who wants to build his future with zeros and ones. I’m 26 years old and I’ve been living in Turkey since I was born, which makes me a Turk naturally. Anyway, let me tell you a little bit of my physical appearance. I’ve got a normal height and slightly weaker weight than usual. Usually, I’m getting around with short hair and a beard. If it’s a sunny day, you’ll see me wearing sunglasses because I’ve got an issue in my eyes. Those damn sun rays, I hate them.
 
 I have loved computer technologies, softwares, and of course, video games since my childhood. Perhaps, this is the biggest reason I chose the profession in software engineering today. (Yeah, definitely it is 🙂) There is no doubt, I’m not an extremely social person because in general I'm not a talkative fellow. But there is an exception. If there are people I love or is something I can talk about, I can be a chatty guy ^_^
 
