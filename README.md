@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on **Trendyol**
 
-- 🌱 I’m currently learning **Svelte and Tailwind CSS**
+- 🌱 I’m currently learning **Astro**
 
 - 👨‍💻 All of my projects are available at [https://erbilnas.com/#/portfolio](https://erbilnas.com/#/portfolio)
 
