@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on **Trendyol**
 
-- 🌱 I’m currently learning **Astro**
+- 🌱 I’m currently learning **Nuxt**
 
 - 👨‍💻 All of my projects are available at [https://erbilnas.com/#/portfolio](https://erbilnas.com/#/portfolio)
 
@@ -34,7 +34,7 @@ Well, what’s happening in my inner world? Let’s take a quick look at what's 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/erbilnas" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="erbilnas" height="30" width="40" /></a>
+<a href="https://twitter.com/koalafied_dev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="erbilnas" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/erbilnas" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="erbilnas" height="30" width="40" /></a>
 </p>
 
