@@ -4,7 +4,7 @@
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=erbilnas&theme=tokyonight&column=9&margin-w=15&margin-h=15&no-frame=true&row=1&no-bg=true" alt="erbilnas" /></a> </p>
 
 <div>
-  <p> <a href="https://twitter.com/koalafied_dev" target="blank"><img src="https://img.shields.io/twitter/follow/koalafied_dev?logo=twitter&style=social" alt="erbilnas" /></a> </p>
+  <p> <a href="https://twitter.com/erbilnas" target="blank"><img src="https://img.shields.io/twitter/follow/erbilnas?logo=twitter&style=social" alt="erbilnas" /></a> </p>
   <p> <img src="https://komarev.com/ghpvc/?username=erbilnas&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="erbilnas" /> </p>
   <p><a href="https://erbilnas.com" title="Visit my site"><img src="https://img.shields.io/badge/visit-erbilnas.com-blue?style=for-the-badge" alt="Visit - Documentation"></a></p>
 </div>
