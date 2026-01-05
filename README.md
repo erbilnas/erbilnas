@@ -1,8 +1,6 @@
 <h1 align="center">Hi there 👋 I'm Erbil</h1>
 <h3 align="center">An ever-learning software engineer from Turkey</h3>
 
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=erbilnas&theme=tokyonight&column=9&margin-w=15&margin-h=15&no-frame=true&row=1&no-bg=true" alt="erbilnas" /></a> </p>
-
 <div>
   <p> <a href="https://twitter.com/erbilnas" target="blank"><img src="https://img.shields.io/twitter/follow/erbilnas?logo=twitter&style=social" alt="erbilnas" /></a> </p>
   <p> <img src="https://komarev.com/ghpvc/?username=erbilnas&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="erbilnas" /> </p>
@@ -10,11 +8,11 @@
 </div>
 
 
-- 🔭 I’m currently working on **Trendyol**
+- 🔭 I’m currently working on **Trendyol Go by Uber Eats**
 
 - 🌱 I’m currently learning **three.js**
 
-- 💬 Ask me about **JavaScript/TypeScript, Vue (Nuxt) and Micro Frontend Architecture**
+- 💬 Ask me anything about **frontend engineering**
 
 - ⚡ Fun fact, **things aren’t always #000000 and #FFFFFF**
 
