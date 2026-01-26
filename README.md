@@ -9,26 +9,27 @@
 <div align="center">
   
   [![Twitter Follow](https://img.shields.io/twitter/follow/erbilnas?logo=x&style=for-the-badge&color=000000&labelColor=000000)](https://twitter.com/erbilnas)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-erbilnas-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/erbilnas)
   [![Website](https://img.shields.io/badge/Website-erbilnas.com-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://erbilnas.com)
   ![Profile Views](https://komarev.com/ghpvc/?username=erbilnas&label=Profile%20views&color=0e75b6&style=for-the-badge)
+  [![GitHub Stars](https://img.shields.io/github/stars/erbilnas?style=for-the-badge&logo=github&label=Total%20Stars&color=gold)](https://github.com/erbilnas)
+  [![GitHub Followers](https://img.shields.io/github/followers/erbilnas?style=for-the-badge&logo=github&label=Followers&color=181717)](https://github.com/erbilnas)
   
 </div>
 
-## 👨‍💻 About Me
+## 🚀 What I'm Up To
 
 <div align="left">
   
-  🔭 I'm currently working on **Trendyol Go by Uber Eats**
-  
-  🌱 I'm currently learning **three.js**
-  
-  💬 Ask me anything about **frontend engineering**
-  
-  ⚡ Fun fact: **things aren't always #000000 and #FFFFFF**
-  
+- Currently working on **Trendyol Go by Uber Eats** — building seamless food and grocery delivery experiences for millions of users
+
+- Currently learning **three.js** — exploring the world of 3D graphics and interactive web experiences
+- Ask me anything about **frontend engineering** — from Vue & TypeScript to performance optimization and design systems
+- Fun fact: **things aren't always #000000 and #FFFFFF** — I believe in the beauty of nuance, both in code and in life
+
 </div>
 
-## 📖 More About Me
+## 💫 The Person Behind the Code
 
 Introducing myself is always a challenge, but here's a brief glimpse into who I am: I'm a software engineer, constantly learning and passionate about building my future with zeros and ones. I'm 28 years old, born and raised in Turkey.
 
