@@ -16,7 +16,7 @@
 
 ## 👨‍💻 About Me
 
-<div align="center">
+<div align="left">
   
   🔭 I'm currently working on **Trendyol Go by Uber Eats**
   
