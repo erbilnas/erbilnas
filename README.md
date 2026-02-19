@@ -31,7 +31,7 @@
 
 ## 💫 The Person Behind the Code
 
-Introducing myself is always a challenge, but here's a brief glimpse into who I am: I'm a software engineer, constantly learning and passionate about building my future with zeros and ones. I'm 28 years old, born and raised in Turkey.
+Introducing myself is always a challenge, but here's a brief glimpse into who I am: I'm a software engineer, constantly learning and passionate about building my future with zeros and ones. I'm 29 years old, born and raised in Turkey.
 
 In terms of appearance, I'm of average height and slightly leaner than most. You'll usually find me sporting short hair and a beard, and on sunny days, I'll have sunglasses on due to an eye issue—those sun rays are no friend of mine.
 
