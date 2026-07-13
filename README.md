@@ -22,9 +22,7 @@
 <div align="left">
   
 - Currently working on **Trendyol Go by Uber Eats** — building seamless food and grocery delivery experiences for millions of users
-
-- Currently learning **three.js** — exploring the world of 3D graphics and interactive web experiences
-- Ask me anything about **frontend engineering** — from Vue & TypeScript to performance optimization and design systems
+- Ask me anything about **software engineering** — from design systems to performance optimization
 - Fun fact: **things aren't always #000000 and #FFFFFF** — I believe in the beauty of nuance, both in code and in life
 
 </div>
