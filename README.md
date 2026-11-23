@@ -6,7 +6,11 @@
 -->
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=26&duration=3500&pause=900&color=BF5AF2&center=true&vCenter=true&multiline=true&width=720&height=80&lines=JACKING+IN...;Operator+Erbil+online" alt="Terminal typing animation" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0612,100:160B24&height=120&section=header&text=WELCOME&fontSize=42&fontColor=BF5AF2&animation=fadeIn&fontAlignY=38&desc=you+jacked+into+Erbil%27s+node&descAlignY=58&descSize=14&descColor=FFE566" alt="Welcome wave" />
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=26&duration=3500&pause=900&color=BF5AF2&center=true&vCenter=true&multiline=true&width=720&height=80&lines=JACKING+IN...;Operator+Erbil+online;Alignment%3A+Chaotic+Good" alt="Terminal typing animation" />
 </div>
 
 <br />
@@ -22,6 +26,12 @@
   <img src="https://img.shields.io/badge/Class-Senior_Software_Engineer-160B24?style=for-the-badge&labelColor=0A0612&color=BF5AF2" alt="Class" />
   <img src="https://img.shields.io/badge/Level-29-BF5AF2?style=for-the-badge&labelColor=0A0612" alt="Level 29" />
   <img src="https://img.shields.io/badge/Node-Istanbul-FFE566?style=for-the-badge&labelColor=0A0612" alt="Istanbul" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&duration=2200&pause=700&color=FFE566&center=true&vCenter=true&width=640&height=40&lines=STATUS%3A+ONLINE;CHANNEL%3A+OPEN;STILL+LEARNING." alt="Status ticker" />
 </div>
 
 <br /><br />
@@ -127,6 +137,8 @@
       <h2 align="center">📜 Active contract</h2>
       <p align="center">
         <img src="https://img.shields.io/badge/%E2%96%A0_LIVE-Uber_Eats-BF5AF2?style=for-the-badge&labelColor=0A0612" alt="Active contract" />
+        <br /><br />
+        <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=2800&pause=900&color=BF5AF2&center=true&vCenter=true&width=360&height=35&lines=contract+active;shipping+delivery+UI;open+for+reviews" alt="Contract status typing" />
       </p>
       <p>I work on Uber Eats: food and grocery delivery for millions.</p>
       <p><b>Open channels</b></p>
@@ -190,6 +202,8 @@
       <h2>🎒 Loadout</h2>
       <sub>tech from erbilnas.com · simpleicons</sub>
       <br /><br />
+      <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=2400&pause=800&color=FFE566&center=true&vCenter=true&width=420&height=35&lines=mounting+modules...;stack+synced" alt="Loadout mount typing" />
+      <br /><br />
       <a href="https://simpleicons.dev">
         <img src="https://simpleicons.dev/icons?icons=vuedotjs,nuxt,typescript,vite,bun,go,lit,bem,hono,supabase,drizzle,cloudflare,swift,penpot,coolify,hetzner,vitest,cypress&theme=dark&perline=9" alt="Skill icons" />
       </a>
@@ -198,6 +212,12 @@
 </table>
 
 <br /><br />
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=160B24&height=70&section=header&text=ARCHIVES+ONLINE&fontSize=22&fontColor=BF5AF2&animation=blinking&fontAlignY=50" alt="Archives online blink" />
+</div>
+
+<br />
 
 <table>
   <tr>
@@ -252,6 +272,8 @@
       <h2>🧠 Neural log</h2>
       <img src="https://img.shields.io/badge/LOG_01-Origin_dump-BF5AF2?style=for-the-badge&labelColor=0A0612" alt="Origin dump" />
       <br /><br />
+      <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=3000&pause=1000&color=BF5AF2&center=true&vCenter=true&width=480&height=35&lines=decrypting+origin+dump...;memory+stream+ready" alt="Neural log typing" />
+      <br /><br />
     </td>
   </tr>
   <tr>
@@ -298,7 +320,7 @@
     <td align="center">
       <img src="assets/spacer-900.png" alt="" />
       <h2>🐍 Grid snake</h2>
-      <sub>contribution hunter (needs Actions once)</sub>
+      <sub>contribution hunter</sub>
       <br /><br />
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/erbilnas/erbilnas/output/github-contribution-grid-snake-dark.svg" />
@@ -326,6 +348,11 @@
 <br /><br />
 
 <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=2600&pause=900&color=FFE566&center=true&vCenter=true&width=520&height=35&lines=SIGINT+received...;session+paused;reconnect+anytime" alt="Disconnect typing" />
+</div>
+
+<br />
+
+<div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=160B24&height=120&section=footer&text=DISCONNECT&fontSize=36&fontColor=BF5AF2&animation=twinkling&fontAlignY=65&desc=come%20back%20online%20anytime&descAlignY=85&descSize=14&descColor=FFE566" alt="Cyberpunk wave footer" />
-  <br />
 </div>
