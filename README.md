@@ -3,21 +3,18 @@
   GitHub sets table { width: max-content } and img { max-width: 100% }.
   Use assets/spacer-900.png as a real 900x1 purple line so max-content stretches.
   Palette: void #0A0612 / panel #160B24 / purple #BF5AF2 / neon yellow #FFE566
-  Progress bars: assets/bars/*.svg (SMIL width animate; Camo-safe like the snake)
+  Progress bars: assets/bars/*.svg (SMIL fill + tip glow; Camo-safe)
+  Signature: assets/operator-portrait.svg · prefer repo assets over host spam
 -->
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0612,100:160B24&height=120&section=header&text=WELCOME&fontSize=42&fontColor=BF5AF2&animation=fadeIn&fontAlignY=38&desc=you+jacked+into+Erbil%27s+node&descAlignY=58&descSize=14&descColor=FFE566" alt="Welcome wave" />
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=26&duration=3500&pause=900&color=BF5AF2&center=true&vCenter=true&multiline=true&width=720&height=80&lines=JACKING+IN...;Operator+Erbil+online;Alignment%3A+Chaotic+Good" alt="Terminal typing animation" />
+  <img src="assets/operator-portrait.svg" alt="Operator Erbil portrait" width="220" height="220" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=18&duration=4000&pause=1200&color=FFE566&center=true&vCenter=true&width=900&height=55&lines=Draw+protocol%3A+build.+ship.+repeat." alt="Handwriting-style draw line" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=24&duration=2800&pause=900&color=BF5AF2&center=true&vCenter=true&multiline=true&width=720&height=70&lines=JACKING+IN...;Operator+Erbil+online;Alignment%3A+Chaotic+Good" alt="Terminal typing" />
 </div>
 
 <br />
@@ -32,7 +29,9 @@
 <br />
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&duration=2200&pause=700&color=FFE566&center=true&vCenter=true&width=640&height=40&lines=STATUS%3A+ONLINE;CHANNEL%3A+OPEN;STILL+LEARNING." alt="Status ticker" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&duration=2400&pause=1100&color=FFE566&center=true&vCenter=true&width=720&height=40&lines=STATUS%3A+ONLINE+%C2%B7+CHANNEL+OPEN;NOW+SHIPPING%3A+BaklaVue+%E2%80%94+Vue+3+UI+kit+for+Baklava" alt="Status and now shipping" />
+  <br />
+  <sub><a href="https://github.com/erbilnas/baklavue">baklavue</a> · <a href="https://baklavue.erbilnas.com">baklavue.erbilnas.com</a> · A Vue 3 UI kit for Trendyol Baklava design system components</sub>
 </div>
 
 <br /><br />
@@ -115,13 +114,9 @@
 
 <table>
   <tr>
-    <td colspan="2" align="center">
+    <td align="center">
       <img src="assets/spacer-900.png" alt="" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h2 align="center">🧬 Operator dossier</h2>
+      <h2>🧬 Operator dossier</h2>
       <table>
         <tr><td><b>Callsign</b></td><td>Erbil</td></tr>
         <tr><td><b>Class</b></td><td>Senior Software Engineer</td></tr>
@@ -134,15 +129,20 @@
         <tr><td><b>MP</b></td><td><img src="assets/bars/mp-75.svg" alt="MP 75%" /> deep focus buffer</td></tr>
       </table>
     </td>
-    <td width="50%" valign="top">
-      <h2 align="center">📜 Active contract</h2>
-      <p align="center">
-        <img src="https://img.shields.io/badge/%E2%96%A0_LIVE-Uber_Eats-BF5AF2?style=for-the-badge&labelColor=0A0612" alt="Active contract" />
-        <br /><br />
-        <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=2800&pause=900&color=BF5AF2&center=true&vCenter=true&width=360&height=35&lines=contract+active;shipping+delivery+UI;open+for+reviews" alt="Contract status typing" />
-      </p>
-      <p>I work on Uber Eats: food and grocery delivery for millions.</p>
-      <p><b>Open channels</b></p>
+  </tr>
+</table>
+
+<br /><br />
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/spacer-900.png" alt="" />
+      <h2>📜 Active contract</h2>
+      <img src="https://img.shields.io/badge/%E2%96%A0_LIVE-Uber_Eats-BF5AF2?style=for-the-badge&labelColor=0A0612" alt="Active contract" />
+      <br /><br />
+      <p align="left">I work on Uber Eats: food and grocery delivery for millions.</p>
+      <p align="left"><b>Open channels</b></p>
       <ul>
         <li>Happy to talk software engineering, design systems, performance</li>
         <li>Up for code reviews and architecture chats</li>
@@ -201,9 +201,7 @@
     <td align="center">
       <img src="assets/spacer-900.png" alt="" />
       <h2>🎒 Loadout</h2>
-      <sub>tech from erbilnas.com · simpleicons</sub>
-      <br /><br />
-      <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=2400&pause=800&color=FFE566&center=true&vCenter=true&width=420&height=35&lines=mounting+modules...;stack+synced" alt="Loadout mount typing" />
+      <sub>tech from erbilnas.com</sub>
       <br /><br />
       <a href="https://simpleicons.dev">
         <img src="https://simpleicons.dev/icons?icons=vuedotjs,nuxt,typescript,vite,bun,go,lit,bem,hono,supabase,drizzle,cloudflare,swift,penpot,coolify,hetzner,vitest,cypress&theme=dark&perline=9" alt="Skill icons" />
@@ -214,49 +212,53 @@
 
 <br /><br />
 
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=160B24&height=70&section=header&text=ARCHIVES+ONLINE&fontSize=22&fontColor=BF5AF2&animation=blinking&fontAlignY=50" alt="Archives online blink" />
-</div>
-
-<br />
-
 <table>
   <tr>
-    <td colspan="2" align="center">
+    <td align="center">
       <img src="assets/spacer-900.png" alt="" />
-      <h2>🗄 Archived runs</h2>
-      <sub>repo cards from past contracts</sub>
+      <h2>🚀 Active runs</h2>
+      <sub>current builds · full width on mobile</sub>
       <br /><br />
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/erbilnas/cs-sakaryauniversity">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=erbilnas&repo=cs-sakaryauniversity&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8" alt="cs-sakaryauniversity" />
+    <td align="center">
+      <a href="https://github.com/erbilnas/baklavue">
+        <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=erbilnas&repo=baklavue&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8" alt="baklavue" />
       </a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/erbilnas/humble-book-bundle">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=erbilnas&repo=humble-book-bundle&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8" alt="humble-book-bundle" />
-      </a>
+      <br />
+      <sub>now shipping · <a href="https://baklavue.erbilnas.com">baklavue.erbilnas.com</a></sub>
+      <br /><br />
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/erbilnas/clawd-code">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=erbilnas&repo=clawd-code&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8" alt="clawd-code" />
+    <td align="center">
+      <a href="https://github.com/erbilnas/farkle">
+        <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=erbilnas&repo=farkle&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8" alt="farkle" />
       </a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/erbilnas/gallop-arena">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=erbilnas&repo=gallop-arena&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8" alt="gallop-arena" />
-      </a>
+      <br /><br />
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center">
+    <td align="center">
+      <a href="https://github.com/erbilnas/read-my-screen">
+        <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=erbilnas&repo=read-my-screen&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8" alt="read-my-screen" />
+      </a>
+      <br /><br />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/erbilnas/git-persona">
+        <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=erbilnas&repo=git-persona&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8" alt="git-persona" />
+      </a>
+      <br /><br />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
       <a href="https://github.com/erbilnas/portfolio">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erbilnas&repo=portfolio&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8" alt="portfolio" />
+        <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=erbilnas&repo=portfolio&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8" alt="portfolio" />
       </a>
       <br />
       <sub>also live at <a href="https://erbilnas.com">erbilnas.com</a></sub>
@@ -270,10 +272,44 @@
   <tr>
     <td align="center">
       <img src="assets/spacer-900.png" alt="" />
+      <h2>🗄 Archived runs</h2>
+      <sub>older contracts still on the vault</sub>
+      <br /><br />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/erbilnas/clawd-code">
+        <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=erbilnas&repo=clawd-code&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8" alt="clawd-code" />
+      </a>
+      <br /><br />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/erbilnas/gallop-arena">
+        <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=erbilnas&repo=gallop-arena&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8" alt="gallop-arena" />
+      </a>
+      <br /><br />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/erbilnas/cs-sakaryauniversity">
+        <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=erbilnas&repo=cs-sakaryauniversity&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8" alt="cs-sakaryauniversity" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br /><br />
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/spacer-900.png" alt="" />
       <h2>🧠 Neural log</h2>
       <img src="https://img.shields.io/badge/LOG_01-Origin_dump-BF5AF2?style=for-the-badge&labelColor=0A0612" alt="Origin dump" />
-      <br /><br />
-      <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=3000&pause=1000&color=BF5AF2&center=true&vCenter=true&width=480&height=35&lines=decrypting+origin+dump...;memory+stream+ready" alt="Neural log typing" />
       <br /><br />
     </td>
   </tr>
@@ -292,22 +328,14 @@
 
 <table>
   <tr>
-    <td colspan="2" align="center">
+    <td align="center">
       <img src="assets/spacer-900.png" alt="" />
       <h2>📊 Telemetry</h2>
       <sub>combat record</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
+      <br /><br />
       <img width="100%" src="https://github-readme-stats.vercel.app/api?username=erbilnas&show_icons=true&hide_border=true&bg_color=0A0612&title_color=BF5AF2&icon_color=FFE566&text_color=C8D0D8&ring_color=BF5AF2" alt="GitHub stats" />
-    </td>
-    <td width="50%" align="center" valign="top">
+      <br /><br />
       <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=erbilnas&layout=compact&hide_border=true&bg_color=0A0612&title_color=BF5AF2&text_color=C8D0D8" alt="Top languages" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
       <br /><br />
       <img width="100%" src="https://streak-stats.demolab.com?user=erbilnas&hide_border=true&background=0A0612&ring=BF5AF2&fire=FFE566&currStreakLabel=BF5AF2&sideLabels=BF5AF2&currStreakNum=C8D0D8&sideNums=C8D0D8&dates=5A6570" alt="Contribution streak" />
     </td>
@@ -321,7 +349,7 @@
     <td align="center">
       <img src="assets/spacer-900.png" alt="" />
       <h2>🐍 Grid snake</h2>
-      <sub>contribution hunter</sub>
+      <sub>contribution hunter · local output branch</sub>
       <br /><br />
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/erbilnas/erbilnas/output/github-contribution-grid-snake-dark.svg" />
@@ -334,26 +362,6 @@
 
 <br /><br />
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="assets/spacer-900.png" alt="" />
-      <h2>🗺 Signal map</h2>
-      <sub>contributions this year</sub>
-      <br /><br />
-      <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=erbilnas&bg_color=0a0612&color=bf5af2&line=ffe566&point=c8d0d8&area=true&area_color=bf5af2&hide_border=true&custom_title=Signal%20map" alt="Contribution activity graph" />
-    </td>
-  </tr>
-</table>
-
-<br /><br />
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=2600&pause=900&color=FFE566&center=true&vCenter=true&width=520&height=35&lines=SIGINT+received...;session+paused;reconnect+anytime" alt="Disconnect typing" />
-</div>
-
-<br />
-
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=160B24&height=120&section=footer&text=DISCONNECT&fontSize=36&fontColor=BF5AF2&animation=twinkling&fontAlignY=65&desc=come%20back%20online%20anytime&descAlignY=85&descSize=14&descColor=FFE566" alt="Cyberpunk wave footer" />
+  <img width="100%" src="assets/footer-sig.svg" alt="Disconnect" />
 </div>
