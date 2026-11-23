@@ -459,8 +459,12 @@ LINKS = [
     ("googlechrome", "Website", "erbilnas.com", "https://erbilnas.com"),
 ]
 ICONS = json.load(open(HERE / "icons.json"))
-SEG = W // len(LINKS)     # ~293 px per button slice
-BTN_W, BTN_GAP = 180, 56  # buttons line up with the text column (x = 52 … 828)
+# One slice per link. BTN_W + BTN_GAP == SEG keeps every card at local x = X,
+# so the console rail and card edges stay continuous across the row.
+SEG = W // len(LINKS)
+BTN_W = (FR - 36) - X - (len(LINKS) - 1) * SEG   # right edge lands on 828
+BTN_GAP = SEG - BTN_W
+assert BTN_W > 0 and BTN_GAP > 0, (BTN_W, BTN_GAP, SEG)
 
 
 def icon_markup(key, x, y, size=18):

@@ -22,9 +22,9 @@ text{font-family:'JBM',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font
 <rect x="16" y="0" width="277" height="80" fill="#0A0612"/>
 <rect x="16" y="0" width="277" height="80" fill="url(#grid)"/>
 <g class="ln" style="animation-delay:0.25s">
-<path d="M52 12H220L232 24V68H52Z" fill="#BF5AF2" fill-opacity=".05"/>
-<path d="M52 12H220L232 24V68H52Z" fill="none" stroke="#BF5AF2" stroke-opacity=".55"/>
-<path d="M220 12L232 24" stroke="#BF5AF2" stroke-width="2"/>
+<path d="M52 12H230L242 24V68H52Z" fill="#BF5AF2" fill-opacity=".05"/>
+<path d="M52 12H230L242 24V68H52Z" fill="none" stroke="#BF5AF2" stroke-opacity=".55"/>
+<path d="M230 12L242 24" stroke="#BF5AF2" stroke-width="2"/>
 <g filter="url(#g)" opacity=".5"><path transform="translate(64 23) scale(0.75)" d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z" fill="#BF5AF2"/></g>
 <path transform="translate(64 23) scale(0.75)" d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z" fill="#BF5AF2"/>
 <text x="90" y="37" font-weight="700" class="cy" style="font-size:13px">X</text>
