@@ -1,6 +1,7 @@
 <!--
   Erbil's GitHub Profile: cozy RPG character sheet (HTML UI)
-  Rule: never put blank lines inside <table>…</table> (GitHub breaks the HTML).
+  GitHub sets .markdown-body table { width: max-content }, so % widths and
+  height="0" spacers do nothing. Force width with assets/spacer.png at 900px.
   Theme: hearth amber (#E8B86D) on walnut (#2C2118)
 -->
 
@@ -15,23 +16,21 @@
 
 <br /><br />
 
-<table width="100%">
+<table>
   <tr>
     <td colspan="2" align="center">
+      <img src="assets/spacer.png" width="900" height="1" alt="" />
       <h2>☕ Inn doors</h2>
       <sub>links, basically</sub>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>🔥 Fireside</h3>
       <a href="https://x.com/erbilnas"><img src="https://img.shields.io/badge/X-%40erbilnas-E8B86D?style=for-the-badge&logo=x&logoColor=E8B86D&labelColor=2C2118" alt="X @erbilnas" /></a>
       <br /><br /><sub>X / Twitter</sub>
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>📜 Guest book</h3>
       <a href="https://linkedin.com/in/erbilnas"><img src="https://img.shields.io/badge/LinkedIn-erbilnas-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=2C2118" alt="LinkedIn" /></a>
       <br /><br /><sub>LinkedIn</sub>
@@ -39,13 +38,11 @@
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>🏠 Cottage</h3>
       <a href="https://erbilnas.com"><img src="https://img.shields.io/badge/Website-erbilnas.com-E8B86D?style=for-the-badge&logo=googlechrome&logoColor=E8B86D&labelColor=2C2118" alt="Website" /></a>
       <br /><br /><sub>my site</sub>
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>📚 Workshop</h3>
       <a href="https://github.com/erbilnas"><img src="https://img.shields.io/badge/GitHub-erbilnas-E8B86D?style=for-the-badge&logo=github&logoColor=E8B86D&labelColor=2C2118" alt="GitHub" /></a>
       <br /><br /><sub>repos</sub>
@@ -55,24 +52,22 @@
 
 <br /><br />
 
-<table width="100%">
+<table>
   <tr>
     <td colspan="2" align="center">
+      <img src="assets/spacer.png" width="900" height="1" alt="" />
       <h2>🕯️ Hearth marks</h2>
       <sub>the usual GitHub numbers</sub>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>Warmth</h3>
       <code>████████████████░░░░</code><br /><br />
       <a href="https://github.com/erbilnas?tab=repositories&sort=stargazers"><img src="https://img.shields.io/github/stars/erbilnas?style=for-the-badge&logo=github&label=Warmth&color=E8B86D&labelColor=2C2118" alt="Warmth (stars)" /></a>
       <br /><br /><sub>stars</sub>
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>Companions</h3>
       <code>███████████████░░░░░</code><br /><br />
       <a href="https://github.com/erbilnas?tab=followers"><img src="https://img.shields.io/github/followers/erbilnas?style=for-the-badge&logo=github&label=Companions&color=E8B86D&labelColor=2C2118" alt="Companions" /></a>
@@ -81,14 +76,12 @@
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>Visitors</h3>
       <code>████████████████████</code><br /><br />
       <img src="https://komarev.com/ghpvc/?username=erbilnas&label=Visitors&color=E8B86D&style=for-the-badge" alt="Visitors" />
       <br /><br /><sub>profile views</sub>
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>Recipes</h3>
       <code>████████████░░░░░░░░</code><br /><br />
       <a href="https://github.com/erbilnas?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ferbilnas&query=%24.public_repos&label=Recipes&color=E8B86D&labelColor=2C2118&logo=github&logoColor=E8B86D&style=for-the-badge" alt="Recipes" /></a>
@@ -99,18 +92,17 @@
 
 <br /><br />
 
-<table width="100%">
+<table>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
+      <img src="assets/spacer.png" width="900" height="1" alt="" />
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h2 align="center">🪴 Who's home</h2>
-      <table width="100%">
-        <tr><td width="35%"><b>Name</b></td><td>Erbil</td></tr>
+      <table>
+        <tr><td><b>Name</b></td><td>Erbil</td></tr>
         <tr><td><b>Class</b></td><td>Senior Software Engineer</td></tr>
         <tr><td><b>Subclass</b></td><td>Vue.js / Frontend Systems</td></tr>
         <tr><td><b>Faction</b></td><td>Uber · Trendyol Go</td></tr>
@@ -122,7 +114,6 @@
       </table>
     </td>
     <td width="50%" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h2 align="center">🗺️ Today's errand</h2>
       <p align="center">
         <img src="https://img.shields.io/badge/%F0%9F%8C%BF_IN_PROGRESS-Trendyol_Go_by_Uber_Eats-E8B86D?style=for-the-badge&labelColor=2C2118" alt="Active quest" />
@@ -140,46 +131,40 @@
 
 <br /><br />
 
-<table width="100%">
+<table>
   <tr>
     <td colspan="2" align="center">
+      <img src="assets/spacer.png" width="900" height="1" alt="" />
       <h2>✨ Soft stats</h2>
       <sub>rough scores, don't take them too seriously</sub>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>INT · 18</h3>
       <code>██████████████████░░</code><br /><br /><sub>systems thinking</sub>
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>DEX · 17</h3>
       <code>█████████████████░░░</code><br /><br /><sub>Vue and UI work</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>WIS · 16</h3>
       <code>████████████████░░░░</code><br /><br /><sub>debugging, nuance</sub>
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>VIT · 15</h3>
       <code>███████████████░░░░░</code><br /><br /><sub>long sessions</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>CHA · 14</h3>
       <code>██████████████░░░░░░</code><br /><br /><sub>writing things down</sub>
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>LCK · 13</h3>
       <code>█████████████░░░░░░░</code><br /><br /><sub>shipping on time, somehow</sub>
     </td>
@@ -188,17 +173,16 @@
 
 <br /><br />
 
-<table width="100%">
+<table>
   <tr>
     <td colspan="2" align="center">
+      <img src="assets/spacer.png" width="900" height="1" alt="" />
       <h2>🧺 Satchel</h2>
       <sub>what I use day to day</sub>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>Favorite tools</h3>
       <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" /><br /><br />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /><br /><br />
@@ -207,7 +191,6 @@
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <h3>Side pockets</h3>
       <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" /><br /><br />
       <img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=vuedotjs&logoColor=black" alt="Pinia" /><br /><br />
@@ -255,18 +238,17 @@
 
 <br /><br />
 
-<table width="100%">
+<table>
   <tr>
     <td align="center">
+      <img src="assets/spacer.png" width="900" height="1" alt="" />
       <h2>📖 Story by the fire</h2>
       <img src="https://img.shields.io/badge/Chapter_I-A_quiet_introduction-E8B86D?style=for-the-badge&labelColor=2C2118" alt="Chapter I" />
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <br /><br />
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <p>Introducing myself is always awkward, so here's the short version. I'm a software engineer. I like learning, and I build things with zeros and ones. I'm 29, born and raised in Turkey.</p>
       <p>Average height, a bit leaner than most. Short hair, beard. On sunny days I wear sunglasses because of an eye issue. Sunlight and I are not friends.</p>
       <p>I've been into computers, software, and video games since I was a kid. That trail led me into software engineering. I'm not the most social person, but if you catch me on something I care about, I talk a lot. ^_^</p>
@@ -278,21 +260,19 @@
 
 <br /><br />
 
-<table width="100%">
+<table>
   <tr>
     <td colspan="2" align="center">
+      <img src="assets/spacer.png" width="900" height="1" alt="" />
       <h2>📓 Craft journal</h2>
       <sub>GitHub stats</sub>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <img width="100%" src="https://github-readme-stats.vercel.app/api?username=erbilnas&show_icons=true&hide_border=true&bg_color=2C2118&title_color=E8B86D&icon_color=E8B86D&text_color=F5E6D3&ring_color=E8B86D" alt="GitHub stats" />
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=erbilnas&layout=compact&hide_border=true&bg_color=2C2118&title_color=E8B86D&text_color=F5E6D3" alt="Top languages" />
     </td>
   </tr>
@@ -306,12 +286,12 @@
 
 <br /><br />
 
-<table width="100%">
+<table>
   <tr>
     <td align="center">
+      <img src="assets/spacer.png" width="900" height="1" alt="" />
       <h2>🗺️ Trail map</h2>
       <sub>contributions this year</sub>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="100%" height="0" alt="" />
       <br /><br />
       <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=erbilnas&bg_color=2c2118&color=e8b86d&line=d4915e&point=f5e6d3&area=true&area_color=e8b86d&hide_border=true&custom_title=Contributions" alt="Contribution activity graph" />
     </td>
