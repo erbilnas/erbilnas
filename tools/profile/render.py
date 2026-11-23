@@ -123,12 +123,11 @@ def up40(v):
 
 # ─────────────────────────────── header ───────────────────────────────
 def build_header():
-    bar_left, bar_right = "SYS://ERBILNAS // NODE:ISTANBUL", "ONLINE · ALL SYSTEMS NOMINAL"
-    name = "ERBIL NAS"
-    lines = ["senior software engineer · vue frontend", "uber eats / trendyol go · istanbul",
-             "alignment chaotic good · still learning under "]
-    text = bar_left + bar_right + name + "$ whoami>>" + "".join(lines) + "ERBILNAS"
-    h = 360
+    bar_left, bar_right = "SYS://erbilnas // NODE:ist", "ONLINE · ALL SYSTEMS NOMINAL"
+    name = "erbil nas"
+    lines = ["senior software engineer @ uber"]
+    text = bar_left + bar_right + name + "$ whoami>>" + "".join(lines)
+    h = 320
     css = f"""@keyframes type{{from{{width:0}}}}
 @keyframes flicker{{0%{{opacity:0}}10%{{opacity:1}}14%{{opacity:.2}}22%{{opacity:1}}30%{{opacity:.4}}40%,100%{{opacity:1}}}}
 @keyframes gm{{0%,92%,100%{{transform:translate(0,0)}}93%{{transform:translate(5px,-1px)}}95%{{transform:translate(-3px,1px)}}97%{{transform:translate(2px,0)}}}}
@@ -141,9 +140,7 @@ def build_header():
 <filter id="sglow" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="3"/></filter>
 <clipPath id="typeclip"><rect class="typing" x="{X}" y="80" width="140" height="30"/></clipPath>"""
     dotx = FR - 20 - len(bar_right) * 8.2 - 16
-    rows = [f'<text class="fg" x="{X}" y="{{y}}"><tspan class="cy">&gt;&gt;</tspan> {e(lines[0])}</text>',
-            f'<text class="fg" x="{X}" y="{{y}}"><tspan class="cy">&gt;&gt;</tspan> {e(lines[1])}</text>',
-            f'<text class="fg" x="{X}" y="{{y}}"><tspan class="cy">&gt;&gt;</tspan> {e(lines[2])}<tspan class="cy" font-weight="700">ERBILNAS</tspan></text>']
+    rows = [f'<text class="fg" x="{X}" y="{{y}}"><tspan class="cy">&gt;&gt;</tspan> {e(lines[0])}</text>']
     desc_lines, _ = stagger(rows, 218, 24, delay0=1.75, step=0.25)
     body = f'''<rect x="{FL}" y="{M}" width="{FR-FL}" height="34" fill="{CYAN}" fill-opacity=".08"/>
 <line x1="{FL}" y1="{M+34}" x2="{FR}" y2="{M+34}" stroke="{CYAN}" stroke-opacity=".5"/>
@@ -159,15 +156,14 @@ def build_header():
 <text x="{X}" y="172" fill="#f0fbff" style="font-size:56px">{name}</text>
 </g>
 {desc_lines}
-<g class="ln" style="animation-delay:2.8s">
-<text x="{X}" y="304" class="gr">$</text>
-<rect class="cursor" x="{X+18}" y="291" width="10" height="17" fill="{CYAN}"/>
-<rect class="cursor" x="{X+18}" y="291" width="10" height="17" fill="{CYAN}" filter="url(#sglow)"/>
+<g class="ln" style="animation-delay:2.2s">
+<text x="{X}" y="268" class="gr">$</text>
+<rect class="cursor" x="{X+18}" y="255" width="10" height="17" fill="{CYAN}"/>
+<rect class="cursor" x="{X+18}" y="255" width="10" height="17" fill="{CYAN}" filter="url(#sglow)"/>
 </g>
 <rect x="{FL}" y="{M+35}" width="{FR-FL}" height="{h-M-35}" fill="url(#scan)"/>'''
     return slice_svg(h, body, title="Erbil Nas",
-                     desc="Senior software engineer focused on Vue.js frontend. Uber Eats / Trendyol Go, "
-                          "based in Istanbul. Alignment Chaotic Good.",
+                     desc="Senior software engineer at Uber. Vue frontend, based in Istanbul.",
                      text=text, top=True, css=css, defs=defs, weights=(400, 700, 800))
 
 
@@ -461,11 +457,10 @@ LINKS = [
     ("x", "X", "@erbilnas", "https://x.com/erbilnas"),
     ("linkedin", "LinkedIn", "in/erbilnas", "https://www.linkedin.com/in/erbilnas"),
     ("googlechrome", "Website", "erbilnas.com", "https://erbilnas.com"),
-    ("github", "GitHub", "@erbilnas", "https://github.com/erbilnas"),
 ]
 ICONS = json.load(open(HERE / "icons.json"))
-SEG = W // len(LINKS)     # 220 px per button slice
-BTN_W, BTN_GAP = 148, 42  # buttons line up with the text column (x = 52 … 828)
+SEG = W // len(LINKS)     # ~293 px per button slice
+BTN_W, BTN_GAP = 180, 56  # buttons line up with the text column (x = 52 … 828)
 
 
 def icon_markup(key, x, y, size=18):
