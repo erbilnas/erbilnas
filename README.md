@@ -190,13 +190,7 @@
       <h2>🎒 Loadout</h2>
       <sub>tech skills</sub>
       <br /><br />
-      <img src="https://skillicons.dev/icons?i=vue,nuxtjs,ts,vite,bun,lit,hono,supabase,cloudflare,swift,vitest,cypress&theme=dark" alt="Skill icons" />
-      <br /><br />
-      <img src="https://img.shields.io/badge/BEM-000000?style=for-the-badge&logoColor=white&labelColor=0A0612" alt="BEM" />
-      <img src="https://img.shields.io/badge/Drizzle-C5F74F?style=for-the-badge&logoColor=black&labelColor=0A0612" alt="Drizzle" />
-      <img src="https://img.shields.io/badge/Penpot-000000?style=for-the-badge&logo=penpot&logoColor=white&labelColor=0A0612" alt="Penpot" />
-      <img src="https://img.shields.io/badge/Coolify-3B82F6?style=for-the-badge&logoColor=white&labelColor=0A0612" alt="Coolify" />
-      <img src="https://img.shields.io/badge/Hetzner-D50C2D?style=for-the-badge&logo=hetzner&logoColor=white&labelColor=0A0612" alt="Hetzner" />
+      <img src="https://skillicons.dev/icons?i=vue,nuxtjs,ts,vite,bun,lit,supabase,cloudflare,swift,vitest,cypress&theme=dark" alt="Skill icons" />
     </td>
   </tr>
 </table>
@@ -332,5 +326,4 @@
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=160B24&height=120&section=footer&text=DISCONNECT&fontSize=36&fontColor=BF5AF2&animation=twinkling&fontAlignY=65&desc=come%20back%20online%20anytime&descAlignY=85&descSize=14&descColor=FFE566" alt="Cyberpunk wave footer" />
   <br />
-  <b>▮ · erbilnas · ▮</b>
 </div>
