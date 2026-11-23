@@ -1,0 +1,105 @@
+[
+  {
+    "key": "favorites",
+    "label": "favorites",
+    "items": [
+      "Vue",
+      "Nuxt",
+      "TypeScript",
+      "Vite",
+      "Bun",
+      "Lit",
+      "BEM",
+      "Hono",
+      "Supabase",
+      "Drizzle",
+      "Cloudflare",
+      "Swift",
+      "Penpot",
+      "Coolify",
+      "Hetzner",
+      "Vitest",
+      "Cypress"
+    ]
+  },
+  {
+    "key": "frontendDevelopment",
+    "label": "frontend",
+    "items": [
+      "Vue",
+      "Nuxt",
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "styled-comp",
+      "BEM",
+      "Sass",
+      "Bun",
+      "pnpm",
+      "Lit",
+      "Vitest",
+      "Jest",
+      "Cypress",
+      "Playwright",
+      "Swift"
+    ]
+  },
+  {
+    "key": "backendDevelopment",
+    "label": "backend",
+    "items": [
+      "Hono",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Postgres",
+      "MySQL",
+      "Drizzle",
+      "Supabase",
+      "Firebase",
+      "Go"
+    ]
+  },
+  {
+    "key": "devops",
+    "label": "devops",
+    "items": [
+      "Docker",
+      "Nginx",
+      "Vercel",
+      "Coolify",
+      "Hetzner",
+      "Cloudflare",
+      "Azure",
+      "Linux",
+      "Git",
+      "GitHub",
+      "Actions",
+      "GitLab"
+    ]
+  },
+  {
+    "key": "ai",
+    "label": "ai",
+    "items": [
+      "ChatGPT",
+      "Claude",
+      "Cursor",
+      "v0",
+      "Copilot",
+      "Gemini",
+      "Grok"
+    ]
+  },
+  {
+    "key": "design",
+    "label": "design",
+    "items": [
+      "Figma",
+      "Adobe XD",
+      "Canva",
+      "Penpot"
+    ]
+  }
+]

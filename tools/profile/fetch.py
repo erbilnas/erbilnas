@@ -14,6 +14,7 @@ import datetime
 import json
 import os
 import pathlib
+import re
 import sys
 import urllib.error
 import urllib.parse
@@ -204,6 +205,71 @@ def fetch_dev(api_key):
     return dev, latest
 
 
+# ─────────────────────── portfolio skills (erbilnas.com) ───────────────
+SKILLS_TS = "https://raw.githubusercontent.com/erbilnas/portfolio/master/constants/skills.ts"
+SKILL_LABELS = {
+    "vue": "Vue", "nuxt": "Nuxt", "typescript": "TypeScript", "vite": "Vite", "bun": "Bun",
+    "lit": "Lit", "bem": "BEM", "hono": "Hono", "supabase": "Supabase", "drizzle": "Drizzle",
+    "cloudflare": "Cloudflare", "swift": "Swift", "penpot": "Penpot", "coolify": "Coolify",
+    "hetznerCloud": "Hetzner", "vitest": "Vitest", "cypress": "Cypress",
+    "react": "React", "next": "Next.js", "tailwind": "Tailwind", "styledComponents": "styled-comp",
+    "sass": "Sass", "pnpm": "pnpm", "jest": "Jest", "playwright": "Playwright",
+    "nodejs": "Node.js", "express": "Express", "mongodb": "MongoDB", "postgresql": "Postgres",
+    "mysql": "MySQL", "firebase": "Firebase", "go": "Go",
+    "docker": "Docker", "nginx": "Nginx", "vercel": "Vercel", "azure": "Azure",
+    "linux": "Linux", "git": "Git", "github": "GitHub", "githubActions": "Actions", "gitlab": "GitLab",
+    "chatgpt": "ChatGPT", "claude": "Claude", "cursor": "Cursor", "v0": "v0",
+    "githubCopilot": "Copilot", "gemini": "Gemini", "grok": "Grok",
+    "figma": "Figma", "adobeXd": "Adobe XD", "canva": "Canva",
+}
+CAT_LABELS = {
+    "favorites": "favorites",
+    "frontendDevelopment": "frontend",
+    "backendDevelopment": "backend",
+    "devops": "devops",
+    "ai": "ai",
+    "design": "design",
+}
+SKIP_CATS = {"languages"}
+
+
+def http_text(url, *, timeout=30):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/plain"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read().decode()
+
+
+def skill_label(key):
+    if key in SKILL_LABELS:
+        return SKILL_LABELS[key]
+    spaced = re.sub(r"([A-Z])", r" \1", key).replace("-", " ").strip()
+    return spaced[:1].upper() + spaced[1:] if spaced else key
+
+
+def fetch_skills():
+    """Parse erbilnas.com portfolio skill categories from constants/skills.ts."""
+    text = http_text(SKILLS_TS)
+    out = []
+    for m in re.finditer(
+        r'categoryKey:\s*"(\w+)"[\s\S]*?skills:\s*\[([\s\S]*?)\]',
+        text,
+    ):
+        key = m.group(1)
+        if key in SKIP_CATS:
+            continue
+        keys = re.findall(r'skillKey:\s*"([^"]+)"', m.group(2))
+        if not keys:
+            continue
+        out.append({
+            "key": key,
+            "label": CAT_LABELS.get(key, key),
+            "items": [skill_label(k) for k in keys],
+        })
+    if not out:
+        raise RuntimeError("no skill categories parsed from portfolio skills.ts")
+    return out
+
+
 # ──────────────────────────────── main ─────────────────────────────────
 def main():
     today = datetime.datetime.now(datetime.timezone.utc).date()
@@ -241,6 +307,14 @@ def main():
         stats.pop("dev", None)
         articles = []
         print("dev: skipped (no DEV_API_KEY)")
+
+    try:
+        skills = fetch_skills()
+        save("skills.json", skills)
+        ok = True
+        print(f"skills: ok ({len(skills)} categories from erbilnas.com portfolio)")
+    except Exception as ex:  # noqa: BLE001
+        warn(f"Skills fetch failed, keeping previous skills.json: {ex}")
 
     if not ok:
         print("error: every source failed, nothing updated", file=sys.stderr)

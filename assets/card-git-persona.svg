@@ -18,23 +18,23 @@ text{font-family:'JBM',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font
 <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
 <filter id="g" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="4"/></filter>
 </defs>
-<path d="M16 -40V240" fill="none" stroke="#BF5AF2" stroke-width="3" opacity=".55" filter="url(#glow)"/>
-<rect x="16" y="0" width="424" height="200" fill="#0A0612"/>
-<rect x="16" y="0" width="424" height="200" fill="url(#grid)"/>
-<g class="ln" style="animation-delay:1.26s">
-<path d="M52 12H414L430 28V188H68L52 172Z" fill="#BF5AF2" fill-opacity=".035"/>
-<path d="M52 12H414L430 28V188H68L52 172Z" fill="none" stroke="#BF5AF2" stroke-opacity=".4"/>
-<path d="M414 12L430 28" stroke="#BF5AF2" stroke-width="2"/>
-<text x="70" y="46" font-weight="700" fill="#BF5AF2" filter="url(#g)" opacity=".6" style="font-size:17px">Git Persona</text>
-<text x="70" y="46" font-weight="700" class="cy" style="font-size:17px">Git Persona</text>
-<path d="M193.2 43l8-8M195.2 35h6v6" fill="none" stroke="#BF5AF2" stroke-width="1.6"/>
-<rect x="70" y="58" width="54.0" height="18" fill="none" stroke="#FFE566" stroke-opacity=".8"/>
-<text x="78" y="71" letter-spacing="1" fill="#FFE566" style="font-size:11px">MACOS</text>
-<text x="70" y="100" class="fg" style="font-size:13px">macOS menu bar tool for switching Git</text>
-<text x="70" y="120" class="fg" style="font-size:13px">identities per repo.</text>
-<text x="70" y="170" class="dim" style="font-size:12px">Swift · Git · menu bar</text>
-<path transform="translate(384.8 158) scale(.55)" d="M10 0l2.9 6.6 7.1.6-5.4 4.7 1.6 7L10 15.2 3.8 18.9l1.6-7L0 7.2l7.1-.6z" fill="#e3b341"/>
-<text x="412" y="170" text-anchor="end" class="dim" style="font-size:12px">0</text>
+<path d="M424 -40V240" fill="none" stroke="#BF5AF2" stroke-width="3" opacity=".55" filter="url(#glow)"/>
+<rect x="0" y="0" width="424" height="200" fill="#0A0612"/>
+<rect x="0" y="0" width="424" height="200" fill="url(#grid)"/>
+<g class="ln" style="animation-delay:1.14s">
+<path d="M10 12H372L388 28V188H26L10 172Z" fill="#BF5AF2" fill-opacity=".035"/>
+<path d="M10 12H372L388 28V188H26L10 172Z" fill="none" stroke="#BF5AF2" stroke-opacity=".4"/>
+<path d="M372 12L388 28" stroke="#BF5AF2" stroke-width="2"/>
+<text x="28" y="46" font-weight="700" fill="#BF5AF2" filter="url(#g)" opacity=".6" style="font-size:17px">Git Persona</text>
+<text x="28" y="46" font-weight="700" class="cy" style="font-size:17px">Git Persona</text>
+<path d="M151.2 43l8-8M153.2 35h6v6" fill="none" stroke="#BF5AF2" stroke-width="1.6"/>
+<rect x="28" y="58" width="54.0" height="18" fill="none" stroke="#FFE566" stroke-opacity=".8"/>
+<text x="36" y="71" letter-spacing="1" fill="#FFE566" style="font-size:11px">MACOS</text>
+<text x="28" y="100" class="fg" style="font-size:13px">macOS menu bar tool for switching Git</text>
+<text x="28" y="120" class="fg" style="font-size:13px">identities per repo.</text>
+<text x="28" y="170" class="dim" style="font-size:12px">Swift · Git · menu bar</text>
+<path transform="translate(342.8 158) scale(.55)" d="M10 0l2.9 6.6 7.1.6-5.4 4.7 1.6 7L10 15.2 3.8 18.9l1.6-7L0 7.2l7.1-.6z" fill="#e3b341"/>
+<text x="370" y="170" text-anchor="end" class="dim" style="font-size:12px">0</text>
 </g>
-<path d="M16 0V200" fill="none" stroke="#BF5AF2" stroke-width="1.2"/>
+<path d="M424 0V200" fill="none" stroke="#BF5AF2" stroke-width="1.2"/>
 </svg>

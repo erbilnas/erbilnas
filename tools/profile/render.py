@@ -225,9 +225,6 @@ PROJECTS = [
     dict(slug="spaceflash", name="Spaceflash", url="https://sidequestvr.com/app/6529/spaceflash",
          tag="VR", tagc=MAGENTA, stars=1, stack="Unity · ShaderLab · VR",
          desc="Wave-based VR shooter defending a moon base on SideQuest."),
-    dict(slug="dont-be-afk", name="Dont Be AFK", url="https://www.glaze.app/app/dont-be-afk-2SXArO",
-         tag="MACOS", tagc=MAGENTA, stars=0, stack="Swift · bash · cliclick",
-         desc="macOS utility that auto-clicks so the system never goes idle."),
     dict(slug="read-my-screen", name="Read My Screen", url="https://www.raycast.com/erbilnas/read-my-screen",
          tag="RAYCAST", tagc=MAGENTA, stars=0, stack="TypeScript · Raycast · AI",
          desc="Raycast extension: screenshots and tabs into AI explanations."),
@@ -390,39 +387,61 @@ def build_stats(d):
 
 
 # ─────────────────────────────── stack ────────────────────────────────
+# Fallback if data/skills.json is missing; live data comes from erbilnas.com
+# portfolio constants/skills.ts via fetch.py.
 STACK = [
-    ("core", ["Vue", "Nuxt", "TypeScript", "Vite"]),
-    ("runtime", ["Bun", "Go", "Lit", "Hono"]),
-    ("platform", ["Supabase", "Cloudflare", "Swift"]),
-    ("test", ["Vitest", "Cypress"]),
+    ("favorites", ["Vue", "Nuxt", "TypeScript", "Vite", "Bun", "Lit", "Hono"]),
+    ("favorites", ["Supabase", "Drizzle", "Cloudflare", "Swift", "Vitest", "Cypress"]),
 ]
 
 
-def build_stack():
+def load_stack():
+    path = DATA / "skills.json"
+    if not path.exists():
+        return STACK
+    cats = json.loads(path.read_text())
+    return [(c["label"], c["items"]) for c in cats if c.get("items")]
+
+
+def build_stack(stack=None):
+    stack = stack or load_stack()
     parts = [heading(44, "stack", "// 05"),
-             f'<g class="ln" style="animation-delay:.15s"><text x="{X}" y="96" class="dim"><tspan class="gr">$</tspan> scan --loadout --top-level</text></g>']
+             f'<g class="ln" style="animation-delay:.15s"><text x="{X}" y="96" class="dim"><tspan class="gr">$</tspan> scan --loadout --from erbilnas.com/skills</text></g>']
     y, rowh = 126, 44
     cw = 0.6 * 13          # char advance at 13px
-    for r, (cat, items) in enumerate(STACK):
-        parts.append(f'<g class="ln" style="animation-delay:{.25 + r*.1:.2f}s">')
-        parts.append(f'<text x="{X}" y="{y+20}" class="dim" style="font-size:13px">{e(cat)}</text>')
-        parts.append(f'<text x="{X+104}" y="{y+20}" class="cy" style="font-size:13px">›</text>')
-        x = X + 124
+    x_items, x_max = X + 124, FR - 36
+    delay = 0.25
+    for cat, items in stack:
+        first_line = True
+        x = x_items
+        parts.append(f'<g class="ln" style="animation-delay:{delay:.2f}s">')
         for it in items:
             w = len(it) * cw + 26
+            if x > x_items and x + w > x_max:
+                parts.append("</g>")
+                y += rowh
+                delay += 0.08
+                first_line = False
+                x = x_items
+                parts.append(f'<g class="ln" style="animation-delay:{delay:.2f}s">')
+            if first_line and x == x_items:
+                parts.append(f'<text x="{X}" y="{y+20}" class="dim" style="font-size:13px">{e(cat)}</text>')
+                parts.append(f'<text x="{X+104}" y="{y+20}" class="cy" style="font-size:13px">›</text>')
+                first_line = False
             parts.append(f'<rect x="{x:.1f}" y="{y}" width="{w:.1f}" height="30" fill="{CYAN}" fill-opacity=".06" stroke="{CYAN}" stroke-opacity=".55"/>')
             parts.append(f'<path d="M{x:.1f} {y+8}V{y}H{x+8:.1f}" fill="none" stroke="{CYAN}" stroke-width="2"/>')
             parts.append(f'<text x="{x+13:.1f}" y="{y+20}" font-weight="700" class="cy" style="font-size:13px">{e(it)}</text>')
             x += w + 10
         parts.append("</g>")
         y += rowh
+        delay += 0.1
     h = up40(y + 10)
-    text = "~/stack// 05$ scan --loadout --top-level›" + "".join(c + "".join(i) for c, i in STACK)
-    desc = "Tech stack. " + " ".join(f"{c}: {', '.join(i)}." for c, i in STACK)
+    text = "~/stack// 05$ scan --loadout --from erbilnas.com/skills›" + "".join(c + "".join(i) for c, i in stack)
+    desc = "Tech stack from erbilnas.com/skills. " + " ".join(f"{c}: {', '.join(i)}." for c, i in stack)
     return slice_svg(h, "\n".join(parts), title="Tech stack", desc=desc, text=text)
 
 
-# ─────────────────────────────── about / neural log ───────────────────
+# ─────────────────────────────── about-me ─────────────────────────────
 ABOUT_PARAS = [
     "Introducing myself is always awkward, so here's the short version. I'm a software engineer. I like learning, and I build things with zeros and ones. I'm 29, born and raised in Turkey.",
     "Average height, a bit leaner than most. Short hair, beard. On sunny days I wear sunglasses because of an eye issue. Sunlight and I are not friends.",
@@ -433,7 +452,7 @@ ABOUT_PARAS = [
 
 
 def build_about():
-    parts = [heading(44, "neural-log", "// 06"),
+    parts = [heading(44, "about-me", "// 06"),
              f'<g class="ln" style="animation-delay:.15s"><text x="{X}" y="96" class="dim"><tspan class="gr">$</tspan> cat ~/about.md <tspan fill="#484f58"># personal lore</tspan></text></g>']
     y = 126
     delay = 0.25
@@ -447,9 +466,9 @@ def build_about():
             delay += 0.06
         y += 12
     h = up40(y + 10)
-    text = "~/neural-log// 06$ cat ~/about.md # personal lore" + "".join(ABOUT_PARAS)
+    text = "~/about-me// 06$ cat ~/about.md # personal lore" + "".join(ABOUT_PARAS)
     desc = " ".join(ABOUT_PARAS)
-    return slice_svg(h, "\n".join(parts), title="Neural log", desc=desc, text=text)
+    return slice_svg(h, "\n".join(parts), title="About me", desc=desc, text=text)
 
 
 # ──────────────────────────────── links ───────────────────────────────
@@ -459,12 +478,16 @@ LINKS = [
     ("googlechrome", "Website", "erbilnas.com", "https://erbilnas.com"),
 ]
 ICONS = json.load(open(HERE / "icons.json"))
-# One slice per link. BTN_W + BTN_GAP == SEG keeps every card at local x = X,
-# so the console rail and card edges stay continuous across the row.
-SEG = W // len(LINKS)
-BTN_W = (FR - 36) - X - (len(LINKS) - 1) * SEG   # right edge lands on 828
-BTN_GAP = SEG - BTN_W
-assert BTN_W > 0 and BTN_GAP > 0, (BTN_W, BTN_GAP, SEG)
+# Slice widths must sum to W so README % widths sum to 100% and rails meet
+# the full-width frame (integer W // n leaves a gap and shifts the row).
+_N = len(LINKS)
+_SEGS = [W // _N] * (_N - 1) + [W - (W // _N) * (_N - 1)]
+# Equal cards from text column (X) to matching right inset (FR-36).
+_BTN_RIGHT = FR - 36
+BTN_W = 190
+BTN_GAP = (_BTN_RIGHT - X - _N * BTN_W) // (_N - 1) if _N > 1 else 0
+assert X + _N * BTN_W + (_N - 1) * BTN_GAP == _BTN_RIGHT, (BTN_W, BTN_GAP)
+LINK_PCT = [f"{100 * s / W:.10f}%" for s in _SEGS]  # sums to 100%; keep in sync with README
 
 
 def icon_markup(key, x, y, size=18):
@@ -484,11 +507,12 @@ def build_links_head():
 def build_link_button(k):
     key, label, handle, url = LINKS[k]
     h = 80
-    x0 = SEG * k                       # this slice's position inside the full-width row
+    seg = _SEGS[k]
+    x0 = sum(_SEGS[:k])
     lx = X + k * (BTN_W + BTN_GAP) - x0
     first, last = k == 0, k == len(LINKS) - 1
     bg0 = FL - x0 if first else 0
-    bg1 = FR - x0 if last else SEG
+    bg1 = FR - x0 if last else seg
     rails = (f"M{FL - x0} 0V{h}" if first else "") + (f"M{FR - x0} 0V{h}" if last else "")
     glow = (f"M{FL - x0} -40V{h+40}" if first else "") + (f"M{FR - x0} -40V{h+40}" if last else "")
     by, bh, cut = 12, 56, 12
@@ -503,7 +527,7 @@ def build_link_button(k):
 <text x="{lx+38}" y="{by+25}" font-weight="700" class="cy" style="font-size:13px">{e(label)}</text>
 <text x="{lx+12}" y="{by+46}" class="dim" style="font-size:10px">{e(handle)}</text>
 </g>'''
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{SEG}" height="{h}" viewBox="0 0 {SEG} {h}" role="img" aria-labelledby="t d">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{seg}" height="{h}" viewBox="0 0 {seg} {h}" role="img" aria-labelledby="t d">
 <title id="t">{e(label)}</title>
 <desc id="d">{e(label)}: {e(url)}</desc>
 <style>
@@ -683,7 +707,7 @@ def main():
     write("projects.svg", build_projects_head())
     for i, p in enumerate(PROJECTS):
         write(f"card-{p['slug']}.svg", build_card(p, "L" if i % 2 == 0 else "R", 0.3 + i * 0.12, stars))
-    write("stack.svg", build_stack())
+    write("stack.svg", build_stack(load_stack()))
     write("about.svg", build_about())
     write("footer.svg", build_footer())
     print("rendered", len(list(OUT.rglob("*.svg"))), "SVGs into", OUT)
