@@ -8,13 +8,8 @@
 <p align="center">
 <img src="./assets/header.svg" width="100%" align="top" alt="Erbil Nas — senior software engineer at Uber. Vue frontend, based in Istanbul.">
 <img src="./assets/links.svg" width="100%" align="top" alt="Links">
-<<<<<<< HEAD
-<a href="https://x.com/erbilnas"><img src="./assets/links/x.svg" width="25%" align="top" alt="X"></a><a href="https://www.linkedin.com/in/erbilnas"><img src="./assets/links/linkedin.svg" width="25%" align="top" alt="LinkedIn"></a><a href="https://erbilnas.com"><img src="./assets/links/googlechrome.svg" width="25%" align="top" alt="Website"></a><a href="https://github.com/erbilnas"><img src="./assets/links/github.svg" width="25%" align="top" alt="GitHub"></a>
-<img src="./assets/stats.svg" width="100%" align="top" alt="Stats: 361 total stars; 301 contributions in 2026, 946 all time; 233 pull requests (219 merged); current streak 1 day, longest 4 days; 225 followers; 156 forks; member since November 2015; 0 hackathon wins. Top languages: TypeScript, JavaScript, HTML, Vue, Python.">
-=======
 <a href="https://x.com/erbilnas"><img src="./assets/links/x.svg" width="33%" align="top" alt="X"></a><a href="https://www.linkedin.com/in/erbilnas"><img src="./assets/links/linkedin.svg" width="33%" align="top" alt="LinkedIn"></a><a href="https://erbilnas.com"><img src="./assets/links/googlechrome.svg" width="33%" align="top" alt="Website"></a>
-<img src="./assets/stats.svg" width="100%" align="top" alt="Stats: 361 total stars; 301 contributions in 2026, 946 all time; 235 pull requests (221 merged); current streak 1 day, longest 4 days; 225 followers; 156 forks; member since November 2015; 0 hackathon wins. Top languages: TypeScript, JavaScript, HTML, Vue, Swift.">
->>>>>>> 13ee432 (fix(readme): tighten header copy and drop github link)
+<img src="./assets/stats.svg" width="100%" align="top" alt="Stats: 361 total stars; 301 contributions in 2026, 946 all time; 233 pull requests (219 merged); current streak 1 day, longest 4 days; 225 followers; 156 forks; member since November 2015; 0 hackathon wins. Top languages: TypeScript, JavaScript, HTML, Vue, Python.">
 <img src="./assets/contribution-city.svg" width="100%" align="top" alt="Contribution city: an isometric night skyline with one building per day of the last year. 338 contributions, busiest day April 30 with 38.">
 <img src="./assets/projects.svg" width="100%" align="top" alt="Projects">
 <a href="https://baklavue.erbilnas.com"><img src="./assets/card-baklavue.svg" width="50%" align="top" alt="BaklaVue — Vue 3 UI kit wrapping Trendyol Baklava design system components."></a><a href="https://farkle.erbilnas.com"><img src="./assets/card-farkle.svg" width="50%" align="top" alt="Farkle — multiplayer Farkle with Vue client and Fastify server."></a>
