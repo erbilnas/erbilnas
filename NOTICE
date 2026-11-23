@@ -1,0 +1,14 @@
+Profile SVG generator
+=====================
+
+This repository includes an adapted copy of the terminal-style GitHub profile
+generator originally published by Giorgi Kobaidze:
+
+  https://github.com/georgekobaidze/georgekobaidze
+
+Copyright (c) 2026 Giorgi Kobaidze
+
+Licensed under the MIT License (see LICENSE).
+
+Modifications for erbilnas (identity, palette, projects, about panel, and
+workflow branch) Copyright (c) 2026 Erbil Nas.

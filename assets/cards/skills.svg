@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="78" viewBox="0 0 900 78" role="img" aria-label="skills">
-  <rect width="900" height="78" rx="10" fill="#0A0612" stroke="#2A1840" stroke-width="1.25"/>
-  <rect x="0" y="12" width="5" height="54" rx="2" fill="#BF5AF2"/>
-  <text x="22" y="30" font-family="ui-monospace, Menlo, monospace" font-size="16" fill="#BF5AF2">skills</text>
-  <text x="870" y="28" text-anchor="end" font-family="ui-monospace, Menlo, monospace" font-size="10" letter-spacing="1.5" fill="#FFE566">LIVE</text>
-  <text x="22" y="52" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#A8B0B8">Agent skills catalog for skills.erbilnas.com</text>
-
-</svg>

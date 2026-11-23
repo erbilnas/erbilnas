@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="88" viewBox="0 0 720 88" role="img" aria-label="Now shipping BaklaVue">
-  <rect width="720" height="88" rx="10" fill="#0A0612" stroke="#2A1840" stroke-width="1.5"/>
-  <rect x="0" y="0" width="6" height="88" rx="2" fill="#FFE566"/>
-  <text x="24" y="28" font-family="ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#FFE566">NOW SHIPPING</text>
-  <text x="24" y="52" font-family="ui-monospace, Menlo, monospace" font-size="20" fill="#BF5AF2">BaklaVue</text>
-  <text x="24" y="74" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#C8D0D8">Vue 3 UI kit for Trendyol Baklava design system components</text>
-  <text x="690" y="52" text-anchor="end" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#FFE566">↗</text>
-</svg>
