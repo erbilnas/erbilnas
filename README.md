@@ -6,7 +6,7 @@
 -->
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=26&duration=3500&pause=900&color=BF5AF2&center=true&vCenter=true&multiline=true&width=720&height=100&lines=JACKING+IN...;Operator+Erbil+online;Stack%3A+Vue+%2F+TS+%2F+Go;Alignment%3A+Chaotic+Good" alt="Terminal typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=26&duration=3500&pause=900&color=BF5AF2&center=true&vCenter=true&multiline=true&width=720&height=80&lines=JACKING+IN...;Operator+Erbil+online" alt="Terminal typing animation" />
 </div>
 
 <br />
@@ -146,37 +146,37 @@
     <td colspan="2" align="center">
       <img src="assets/spacer-900.png" alt="" />
       <h2>⚙️ Core mods</h2>
-      <sub>attribute grid</sub>
+      <sub>wetware ratings · max 20</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <h3>INT · 18</h3>
-      <code>██████████████████░░</code><br /><br /><sub>systems thinking</sub>
+      <h3>CPU · 18</h3>
+      <code>██████████████████░░</code><br /><br /><sub>architecture, tradeoffs, the big picture</sub>
     </td>
     <td width="50%" align="center" valign="top">
-      <h3>DEX · 17</h3>
-      <code>█████████████████░░░</code><br /><br /><sub>UI work</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <h3>WIS · 16</h3>
-      <code>████████████████░░░░</code><br /><br /><sub>debugging, nuance</sub>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <h3>VIT · 15</h3>
-      <code>███████████████░░░░░</code><br /><br /><sub>long sessions</sub>
+      <h3>IFACE · 17</h3>
+      <code>█████████████████░░░</code><br /><br /><sub>Vue, TypeScript, pixels that behave</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <h3>CHA · 14</h3>
-      <code>██████████████░░░░░░</code><br /><br /><sub>writing things down</sub>
+      <h3>SCAN · 16</h3>
+      <code>████████████████░░░░</code><br /><br /><sub>bugs, edge cases, reading the room</sub>
     </td>
     <td width="50%" align="center" valign="top">
-      <h3>LCK · 13</h3>
-      <code>█████████████░░░░░░░</code><br /><br /><sub>shipping on time, somehow</sub>
+      <h3>BATTERY · 15</h3>
+      <code>███████████████░░░░░</code><br /><br /><sub>late nights, long focus, still online</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <h3>SIGNAL · 14</h3>
+      <code>██████████████░░░░░░</code><br /><br /><sub>clear notes, reviews, saying the quiet part</sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <h3>GLITCH · 13</h3>
+      <code>█████████████░░░░░░░</code><br /><br /><sub>deploys that somehow land on time</sub>
     </td>
   </tr>
 </table>
@@ -188,22 +188,15 @@
     <td align="center">
       <img src="assets/spacer-900.png" alt="" />
       <h2>🎒 Loadout</h2>
-      <sub>languages and tech from the trail so far</sub>
+      <sub>tech skills</sub>
       <br /><br />
-      <img src="https://skillicons.dev/icons?i=js,ts,vue,go,swift,cpp,html,css,nodejs,git,github,vscode,figma&theme=dark" alt="Animated skill icons" />
+      <img src="https://skillicons.dev/icons?i=vue,nuxtjs,ts,vite,bun,lit,hono,supabase,cloudflare,swift,vitest,cypress&theme=dark" alt="Skill icons" />
       <br /><br />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" />
-      <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-      <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
-      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-      <br />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-      <img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=vuedotjs&logoColor=black" alt="Pinia" />
-      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+      <img src="https://img.shields.io/badge/BEM-000000?style=for-the-badge&logoColor=white&labelColor=0A0612" alt="BEM" />
+      <img src="https://img.shields.io/badge/Drizzle-C5F74F?style=for-the-badge&logoColor=black&labelColor=0A0612" alt="Drizzle" />
+      <img src="https://img.shields.io/badge/Penpot-000000?style=for-the-badge&logo=penpot&logoColor=white&labelColor=0A0612" alt="Penpot" />
+      <img src="https://img.shields.io/badge/Coolify-3B82F6?style=for-the-badge&logoColor=white&labelColor=0A0612" alt="Coolify" />
+      <img src="https://img.shields.io/badge/Hetzner-D50C2D?style=for-the-badge&logo=hetzner&logoColor=white&labelColor=0A0612" alt="Hetzner" />
     </td>
   </tr>
 </table>
