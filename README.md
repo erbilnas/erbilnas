@@ -188,9 +188,11 @@
     <td align="center">
       <img src="assets/spacer-900.png" alt="" />
       <h2>🎒 Loadout</h2>
-      <sub>tech skills</sub>
+      <sub>tech from erbilnas.com · simpleicons</sub>
       <br /><br />
-      <img src="https://skillicons.dev/icons?i=vue,nuxtjs,ts,vite,bun,lit,supabase,cloudflare,swift,vitest,cypress&theme=dark" alt="Skill icons" />
+      <a href="https://simpleicons.dev">
+        <img src="https://simpleicons.dev/icons?icons=vuedotjs,nuxt,typescript,vite,bun,go,lit,bem,hono,supabase,drizzle,cloudflare,swift,penpot,coolify,hetzner,vitest,cypress&theme=dark&perline=9" alt="Skill icons" />
+      </a>
     </td>
   </tr>
 </table>
