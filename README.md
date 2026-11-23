@@ -19,7 +19,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/%E2%96%A0_OPERATOR_SHEET-ERBIL-BF5AF2?style=for-the-badge&labelColor=0A0612" alt="Operator Sheet" />
-  <img src="https://img.shields.io/badge/Class-Senior_Software_Engineer-160B24?style=for-the-badge&labelColor=BF5AF2&color=0A0612" alt="Class" />
+  <img src="https://img.shields.io/badge/Class-Senior_Software_Engineer-160B24?style=for-the-badge&labelColor=0A0612&color=BF5AF2" alt="Class" />
   <img src="https://img.shields.io/badge/Level-29-BF5AF2?style=for-the-badge&labelColor=0A0612" alt="Level 29" />
   <img src="https://img.shields.io/badge/Node-Istanbul-FFE566?style=for-the-badge&labelColor=0A0612" alt="Istanbul" />
 </div>
