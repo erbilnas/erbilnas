@@ -141,13 +141,15 @@
       <h2>📜 Active contract</h2>
       <img src="https://img.shields.io/badge/%E2%96%A0_LIVE-Uber_Eats-BF5AF2?style=for-the-badge&labelColor=0A0612" alt="Active contract" />
       <br /><br />
-      <p align="left">I work on Uber Eats: food and grocery delivery for millions.</p>
-      <p align="left"><b>Open channels</b></p>
-      <ul>
-        <li>Happy to talk software engineering, design systems, performance</li>
-        <li>Up for code reviews and architecture chats</li>
-        <li>Things aren't always <code>#000000</code> and <code>#FFFFFF</code></li>
-      </ul>
+      <div align="left">
+        <p>I work on Uber Eats: food and grocery delivery for millions.</p>
+        <p><b>Open channels</b></p>
+        <ul>
+          <li>Happy to talk software engineering, design systems, performance</li>
+          <li>Up for code reviews and architecture chats</li>
+          <li>Things aren't always <code>#000000</code> and <code>#FFFFFF</code></li>
+        </ul>
+      </div>
     </td>
   </tr>
 </table>
