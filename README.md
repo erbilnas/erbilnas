@@ -3,6 +3,7 @@
   GitHub sets table { width: max-content } and img { max-width: 100% }.
   Use assets/spacer-900.png as a real 900x1 purple line so max-content stretches.
   Palette: void #0A0612 / panel #160B24 / purple #BF5AF2 / neon yellow #FFE566
+  Progress bars: assets/bars/*.svg (SMIL width animate; Camo-safe like the snake)
 -->
 
 <div align="center">
@@ -83,13 +84,13 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <h3>Fame</h3>
-      <code>████████████████░░░░</code><br /><br />
+      <img src="assets/bars/fame-80.svg" alt="Fame 80%" /><br /><br />
       <a href="https://github.com/erbilnas?tab=repositories&sort=stargazers"><img src="https://img.shields.io/github/stars/erbilnas?style=for-the-badge&logo=github&label=Fame&color=BF5AF2&labelColor=0A0612" alt="Fame (stars)" /></a>
       <br /><br /><sub>stars</sub>
     </td>
     <td width="50%" align="center" valign="top">
       <h3>Crew</h3>
-      <code>███████████████░░░░░</code><br /><br />
+      <img src="assets/bars/crew-75.svg" alt="Crew 75%" /><br /><br />
       <a href="https://github.com/erbilnas?tab=followers"><img src="https://img.shields.io/github/followers/erbilnas?style=for-the-badge&logo=github&label=Crew&color=BF5AF2&labelColor=0A0612" alt="Crew" /></a>
       <br /><br /><sub>followers</sub>
     </td>
@@ -97,13 +98,13 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <h3>Scans</h3>
-      <code>████████████████████</code><br /><br />
+      <img src="assets/bars/scans-100.svg" alt="Scans 100%" /><br /><br />
       <img src="https://komarev.com/ghpvc/?username=erbilnas&label=Scans&color=BF5AF2&style=for-the-badge" alt="Scans" />
       <br /><br /><sub>profile views</sub>
     </td>
     <td width="50%" align="center" valign="top">
       <h3>Builds</h3>
-      <code>████████████░░░░░░░░</code><br /><br />
+      <img src="assets/bars/builds-60.svg" alt="Builds 60%" /><br /><br />
       <a href="https://github.com/erbilnas?tab=repositories"><img src="https://img.shields.io/badge/Builds-37-BF5AF2?style=for-the-badge&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="Builds" /></a>
       <br /><br /><sub>public repos</sub>
     </td>
@@ -129,8 +130,8 @@
         <tr><td><b>Node</b></td><td>Istanbul, Turkey</td></tr>
         <tr><td><b>Alignment</b></td><td>Chaotic Good</td></tr>
         <tr><td><b>Status</b></td><td>Online. Still learning.</td></tr>
-        <tr><td><b>HP</b></td><td><code>████████████████░░░░</code> caffeinated</td></tr>
-        <tr><td><b>MP</b></td><td><code>███████████████░░░░░</code> deep focus buffer</td></tr>
+        <tr><td><b>HP</b></td><td><img src="assets/bars/hp-80.svg" alt="HP 80%" /> caffeinated</td></tr>
+        <tr><td><b>MP</b></td><td><img src="assets/bars/mp-75.svg" alt="MP 75%" /> deep focus buffer</td></tr>
       </table>
     </td>
     <td width="50%" valign="top">
@@ -164,31 +165,31 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <h3>CPU · 18</h3>
-      <code>██████████████████░░</code><br /><br /><sub>architecture, tradeoffs, the big picture</sub>
+      <img src="assets/bars/cpu-18.svg" alt="CPU 18/20" /><br /><br /><sub>architecture, tradeoffs, the big picture</sub>
     </td>
     <td width="50%" align="center" valign="top">
       <h3>IFACE · 17</h3>
-      <code>█████████████████░░░</code><br /><br /><sub>Vue, TypeScript, pixels that behave</sub>
+      <img src="assets/bars/iface-17.svg" alt="IFACE 17/20" /><br /><br /><sub>Vue, TypeScript, pixels that behave</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
       <h3>SCAN · 16</h3>
-      <code>████████████████░░░░</code><br /><br /><sub>bugs, edge cases, reading the room</sub>
+      <img src="assets/bars/scan-16.svg" alt="SCAN 16/20" /><br /><br /><sub>bugs, edge cases, reading the room</sub>
     </td>
     <td width="50%" align="center" valign="top">
       <h3>BATTERY · 15</h3>
-      <code>███████████████░░░░░</code><br /><br /><sub>late nights, long focus, still online</sub>
+      <img src="assets/bars/battery-15.svg" alt="BATTERY 15/20" /><br /><br /><sub>late nights, long focus, still online</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
       <h3>SIGNAL · 14</h3>
-      <code>██████████████░░░░░░</code><br /><br /><sub>clear notes, reviews, saying the quiet part</sub>
+      <img src="assets/bars/signal-14.svg" alt="SIGNAL 14/20" /><br /><br /><sub>clear notes, reviews, saying the quiet part</sub>
     </td>
     <td width="50%" align="center" valign="top">
       <h3>GLITCH · 13</h3>
-      <code>█████████████░░░░░░░</code><br /><br /><sub>deploys that somehow land on time</sub>
+      <img src="assets/bars/glitch-13.svg" alt="GLITCH 13/20" /><br /><br /><sub>deploys that somehow land on time</sub>
     </td>
   </tr>
 </table>

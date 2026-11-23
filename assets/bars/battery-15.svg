@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="22" role="img" aria-label="15/20">
+  <rect width="260" height="22" rx="4" fill="#0A0612"/>
+  <rect x="2" y="2" width="256" height="18" rx="3" fill="#160B24"/>
+  <rect x="2" y="2" width="0" height="18" rx="3" fill="#BF5AF2">
+    <animate attributeName="width" from="0" to="192.0" dur="1.35s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
+  </rect>
+  <text x="130.0" y="15" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#FFE566">15/20</text>
+</svg>
