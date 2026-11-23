@@ -211,8 +211,8 @@
     <td align="center">
       <a href="https://github.com/erbilnas/baklavue"><img width="100%" src="assets/cards/baklavue.svg" alt="baklavue" /></a>
       <br />
-      <a href="https://github.com/erbilnas/baklavue"><img src="https://img.shields.io/badge/Repo-baklavue-BF5AF2?style=for-the-badge&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="baklavue repo" /></a>
-      <a href="https://baklavue.erbilnas.com"><img src="https://img.shields.io/badge/Live-baklavue.erbilnas.com-FFE566?style=for-the-badge&logo=googlechrome&logoColor=FFE566&labelColor=0A0612" alt="baklavue live" /></a>
+      <a href="https://github.com/erbilnas/baklavue"><img src="https://img.shields.io/badge/repo-BF5AF2?style=flat-square&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="baklavue repo" /></a>
+      <a href="https://baklavue.erbilnas.com"><img src="https://img.shields.io/badge/live-FFE566?style=flat-square&logo=googlechrome&logoColor=0A0612&labelColor=0A0612" alt="baklavue live" /></a>
       <br /><br />
     </td>
   </tr>
@@ -220,8 +220,8 @@
     <td align="center">
       <a href="https://github.com/erbilnas/farkle"><img width="100%" src="assets/cards/farkle.svg" alt="farkle" /></a>
       <br />
-      <a href="https://github.com/erbilnas/farkle"><img src="https://img.shields.io/badge/Repo-farkle-BF5AF2?style=for-the-badge&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="farkle repo" /></a>
-      <a href="https://farkle.erbilnas.com"><img src="https://img.shields.io/badge/Live-farkle.erbilnas.com-FFE566?style=for-the-badge&logo=googlechrome&logoColor=FFE566&labelColor=0A0612" alt="farkle live" /></a>
+      <a href="https://github.com/erbilnas/farkle"><img src="https://img.shields.io/badge/repo-BF5AF2?style=flat-square&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="farkle repo" /></a>
+      <a href="https://farkle.erbilnas.com"><img src="https://img.shields.io/badge/live-FFE566?style=flat-square&logo=googlechrome&logoColor=0A0612&labelColor=0A0612" alt="farkle live" /></a>
       <br /><br />
     </td>
   </tr>
@@ -229,8 +229,8 @@
     <td align="center">
       <a href="https://github.com/erbilnas/portfolio"><img width="100%" src="assets/cards/portfolio.svg" alt="portfolio" /></a>
       <br />
-      <a href="https://github.com/erbilnas/portfolio"><img src="https://img.shields.io/badge/Repo-portfolio-BF5AF2?style=for-the-badge&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="portfolio repo" /></a>
-      <a href="https://erbilnas.com"><img src="https://img.shields.io/badge/Live-erbilnas.com-FFE566?style=for-the-badge&logo=googlechrome&logoColor=FFE566&labelColor=0A0612" alt="portfolio live" /></a>
+      <a href="https://github.com/erbilnas/portfolio"><img src="https://img.shields.io/badge/repo-BF5AF2?style=flat-square&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="portfolio repo" /></a>
+      <a href="https://erbilnas.com"><img src="https://img.shields.io/badge/live-FFE566?style=flat-square&logo=googlechrome&logoColor=0A0612&labelColor=0A0612" alt="portfolio live" /></a>
       <br /><br />
     </td>
   </tr>
@@ -238,8 +238,8 @@
     <td align="center">
       <a href="https://github.com/erbilnas/skills"><img width="100%" src="assets/cards/skills.svg" alt="skills" /></a>
       <br />
-      <a href="https://github.com/erbilnas/skills"><img src="https://img.shields.io/badge/Repo-skills-BF5AF2?style=for-the-badge&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="skills repo" /></a>
-      <a href="https://skills.erbilnas.com"><img src="https://img.shields.io/badge/Live-skills.erbilnas.com-FFE566?style=for-the-badge&logo=googlechrome&logoColor=FFE566&labelColor=0A0612" alt="skills live" /></a>
+      <a href="https://github.com/erbilnas/skills"><img src="https://img.shields.io/badge/repo-BF5AF2?style=flat-square&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="skills repo" /></a>
+      <a href="https://skills.erbilnas.com"><img src="https://img.shields.io/badge/live-FFE566?style=flat-square&logo=googlechrome&logoColor=0A0612&labelColor=0A0612" alt="skills live" /></a>
       <br /><br />
     </td>
   </tr>
@@ -247,8 +247,8 @@
     <td align="center">
       <a href="https://github.com/erbilnas/nest-concept-web"><img width="100%" src="assets/cards/nest-concept-web.svg" alt="nest-concept-web" /></a>
       <br />
-      <a href="https://github.com/erbilnas/nest-concept-web"><img src="https://img.shields.io/badge/Repo-nest--concept--web-BF5AF2?style=for-the-badge&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="nest-concept-web repo" /></a>
-      <a href="https://conceptnest.com.tr"><img src="https://img.shields.io/badge/Live-conceptnest.com.tr-FFE566?style=for-the-badge&logo=googlechrome&logoColor=FFE566&labelColor=0A0612" alt="nest-concept live" /></a>
+      <a href="https://github.com/erbilnas/nest-concept-web"><img src="https://img.shields.io/badge/repo-BF5AF2?style=flat-square&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="nest-concept-web repo" /></a>
+      <a href="https://conceptnest.com.tr"><img src="https://img.shields.io/badge/live-FFE566?style=flat-square&logo=googlechrome&logoColor=0A0612&labelColor=0A0612" alt="nest-concept live" /></a>
       <br /><br />
     </td>
   </tr>
@@ -256,8 +256,8 @@
     <td align="center">
       <a href="https://github.com/erbilnas/spaceflash"><img width="100%" src="assets/cards/spaceflash.svg" alt="spaceflash" /></a>
       <br />
-      <a href="https://github.com/erbilnas/spaceflash"><img src="https://img.shields.io/badge/Repo-spaceflash-BF5AF2?style=for-the-badge&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="spaceflash repo" /></a>
-      <a href="https://sidequestvr.com/app/6529/spaceflash"><img src="https://img.shields.io/badge/Live-SideQuest-FFE566?style=for-the-badge&logo=oculus&logoColor=FFE566&labelColor=0A0612" alt="spaceflash live" /></a>
+      <a href="https://github.com/erbilnas/spaceflash"><img src="https://img.shields.io/badge/repo-BF5AF2?style=flat-square&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="spaceflash repo" /></a>
+      <a href="https://sidequestvr.com/app/6529/spaceflash"><img src="https://img.shields.io/badge/live-FFE566?style=flat-square&logo=oculus&logoColor=0A0612&labelColor=0A0612" alt="spaceflash live" /></a>
       <br /><br />
     </td>
   </tr>
@@ -265,8 +265,8 @@
     <td align="center">
       <a href="https://github.com/erbilnas/dont-be-afk"><img width="100%" src="assets/cards/dont-be-afk.svg" alt="dont-be-afk" /></a>
       <br />
-      <a href="https://github.com/erbilnas/dont-be-afk"><img src="https://img.shields.io/badge/Repo-dont--be--afk-BF5AF2?style=for-the-badge&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="dont-be-afk repo" /></a>
-      <a href="https://www.glaze.app/app/dont-be-afk-2SXArO"><img src="https://img.shields.io/badge/Live-Glaze-FFE566?style=for-the-badge&logo=apple&logoColor=FFE566&labelColor=0A0612" alt="dont-be-afk live" /></a>
+      <a href="https://github.com/erbilnas/dont-be-afk"><img src="https://img.shields.io/badge/repo-BF5AF2?style=flat-square&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="dont-be-afk repo" /></a>
+      <a href="https://www.glaze.app/app/dont-be-afk-2SXArO"><img src="https://img.shields.io/badge/live-FFE566?style=flat-square&logo=apple&logoColor=0A0612&labelColor=0A0612" alt="dont-be-afk live" /></a>
       <br /><br />
     </td>
   </tr>
@@ -274,7 +274,7 @@
     <td align="center">
       <a href="https://github.com/erbilnas/read-my-screen"><img width="100%" src="assets/cards/read-my-screen.svg" alt="read-my-screen" /></a>
       <br />
-      <a href="https://github.com/erbilnas/read-my-screen"><img src="https://img.shields.io/badge/Repo-read--my--screen-BF5AF2?style=for-the-badge&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="read-my-screen repo" /></a>
+      <a href="https://github.com/erbilnas/read-my-screen"><img src="https://img.shields.io/badge/repo-BF5AF2?style=flat-square&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="read-my-screen repo" /></a>
       <br /><br />
     </td>
   </tr>
@@ -282,7 +282,7 @@
     <td align="center">
       <a href="https://github.com/erbilnas/git-persona"><img width="100%" src="assets/cards/git-persona.svg" alt="git-persona" /></a>
       <br />
-      <a href="https://github.com/erbilnas/git-persona"><img src="https://img.shields.io/badge/Repo-git--persona-BF5AF2?style=for-the-badge&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="git-persona repo" /></a>
+      <a href="https://github.com/erbilnas/git-persona"><img src="https://img.shields.io/badge/repo-BF5AF2?style=flat-square&logo=github&logoColor=BF5AF2&labelColor=0A0612" alt="git-persona repo" /></a>
     </td>
   </tr>
 </table>
