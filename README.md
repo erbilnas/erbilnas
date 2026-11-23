@@ -84,7 +84,7 @@
     <td width="50%" align="center" valign="top">
       <h3>Recipes</h3>
       <code>████████████░░░░░░░░</code><br /><br />
-      <a href="https://github.com/erbilnas?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ferbilnas&query=%24.public_repos&label=Recipes&color=E8B86D&labelColor=2C2118&logo=github&logoColor=E8B86D&style=for-the-badge" alt="Recipes" /></a>
+      <a href="https://github.com/erbilnas?tab=repositories"><img src="https://img.shields.io/badge/Recipes-37-E8B86D?style=for-the-badge&logo=github&logoColor=E8B86D&labelColor=2C2118" alt="Recipes" /></a>
       <br /><br /><sub>public repos</sub>
     </td>
   </tr>
@@ -104,7 +104,7 @@
       <table>
         <tr><td><b>Name</b></td><td>Erbil</td></tr>
         <tr><td><b>Class</b></td><td>Senior Software Engineer</td></tr>
-        <tr><td><b>Subclass</b></td><td>Vue.js / Frontend Systems</td></tr>
+        <tr><td><b>Subclass</b></td><td>Frontend Engineering</td></tr>
         <tr><td><b>Faction</b></td><td>Uber · Trendyol Go</td></tr>
         <tr><td><b>Hometown</b></td><td>Istanbul, Turkey</td></tr>
         <tr><td><b>Alignment</b></td><td>Chaotic Good</td></tr>
@@ -118,7 +118,7 @@
       <p align="center">
         <img src="https://img.shields.io/badge/%F0%9F%8C%BF_IN_PROGRESS-Trendyol_Go_by_Uber_Eats-E8B86D?style=for-the-badge&labelColor=2C2118" alt="Active quest" />
       </p>
-      <p>I work on Trendyol Go by Uber Eats: food and grocery delivery for a lot of people.</p>
+      <p>I work on Trendyol Go by Uber Eats: food and grocery delivery for millions.</p>
       <p><b>Notice board</b></p>
       <ul>
         <li>Happy to talk software engineering, design systems, performance</li>
