@@ -180,40 +180,35 @@
 
 <br /><br />
 
-<table width="100%">
-  <tr>
-    <td colspan="3" align="center"><h2>🎁 Keepsakes</h2><sub>adventures already told around the fire</sub><br /><br /></td>
-  </tr>
-  <tr>
-    <td width="33%" align="center" valign="top">
-      <h3><a href="https://github.com/erbilnas/cs-sakaryauniversity">cs-sakaryauniversity</a></h3>
-      <img src="https://img.shields.io/github/stars/erbilnas/cs-sakaryauniversity?style=for-the-badge&label=Warmth&color=E8B86D&labelColor=2C2118&logo=github" alt="stars" />
-      <br /><br /><sub>a big scrapbook of uni notes &amp; exams</sub>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <h3><a href="https://github.com/erbilnas/humble-book-bundle">humble-book-bundle</a></h3>
-      <img src="https://img.shields.io/github/stars/erbilnas/humble-book-bundle?style=for-the-badge&label=Warmth&color=E8B86D&labelColor=2C2118&logo=github" alt="stars" />
-      <br /><br /><sub>shelf of Humble Store tomes</sub>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <h3><a href="https://github.com/erbilnas/clawd-code">clawd-code</a></h3>
-      <img src="https://img.shields.io/github/stars/erbilnas/clawd-code?style=for-the-badge&label=Warmth&color=E8B86D&labelColor=2C2118&logo=github" alt="stars" />
-      <br /><br /><sub>quiet research notes in TypeScript</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top"><br />
-      <h3><a href="https://github.com/erbilnas/gallop-arena">gallop-arena</a></h3>
-      <img src="https://img.shields.io/github/stars/erbilnas/gallop-arena?style=for-the-badge&label=Warmth&color=E8B86D&labelColor=2C2118&logo=github" alt="stars" />
-      <br /><br /><sub>Vue horse races — a little game night</sub>
-    </td>
-    <td width="50%" align="center" valign="top" colspan="2"><br />
-      <h3><a href="https://github.com/erbilnas/portfolio">portfolio</a> → <a href="https://erbilnas.com">erbilnas.com</a></h3>
-      <img src="https://img.shields.io/github/stars/erbilnas/portfolio?style=for-the-badge&label=Warmth&color=E8B86D&labelColor=2C2118&logo=github" alt="stars" />
-      <br /><br /><sub>the cottage on the web</sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <h2>🎁 Keepsakes</h2>
+  <sub>adventures already told around the fire</sub>
+  <br /><br />
+  <h3><a href="https://github.com/erbilnas/cs-sakaryauniversity">cs-sakaryauniversity</a></h3>
+  <img src="https://img.shields.io/github/stars/erbilnas/cs-sakaryauniversity?style=for-the-badge&label=Warmth&color=E8B86D&labelColor=2C2118&logo=github" alt="stars" />
+  <br />
+  <sub>a big scrapbook of uni notes &amp; exams</sub>
+  <br /><br /><br />
+  <h3><a href="https://github.com/erbilnas/humble-book-bundle">humble-book-bundle</a></h3>
+  <img src="https://img.shields.io/github/stars/erbilnas/humble-book-bundle?style=for-the-badge&label=Warmth&color=E8B86D&labelColor=2C2118&logo=github" alt="stars" />
+  <br />
+  <sub>shelf of Humble Store tomes</sub>
+  <br /><br /><br />
+  <h3><a href="https://github.com/erbilnas/clawd-code">clawd-code</a></h3>
+  <img src="https://img.shields.io/github/stars/erbilnas/clawd-code?style=for-the-badge&label=Warmth&color=E8B86D&labelColor=2C2118&logo=github" alt="stars" />
+  <br />
+  <sub>quiet research notes in TypeScript</sub>
+  <br /><br /><br />
+  <h3><a href="https://github.com/erbilnas/gallop-arena">gallop-arena</a></h3>
+  <img src="https://img.shields.io/github/stars/erbilnas/gallop-arena?style=for-the-badge&label=Warmth&color=E8B86D&labelColor=2C2118&logo=github" alt="stars" />
+  <br />
+  <sub>Vue horse races — a little game night</sub>
+  <br /><br /><br />
+  <h3><a href="https://github.com/erbilnas/portfolio">portfolio</a> → <a href="https://erbilnas.com">erbilnas.com</a></h3>
+  <img src="https://img.shields.io/github/stars/erbilnas/portfolio?style=for-the-badge&label=Warmth&color=E8B86D&labelColor=2C2118&logo=github" alt="stars" />
+  <br />
+  <sub>the cottage on the web</sub>
+</div>
 
 <br /><br />
 
