@@ -105,7 +105,7 @@
         <tr><td><b>Name</b></td><td>Erbil</td></tr>
         <tr><td><b>Class</b></td><td>Senior Software Engineer</td></tr>
         <tr><td><b>Subclass</b></td><td>Frontend Engineering</td></tr>
-        <tr><td><b>Faction</b></td><td>Uber · Trendyol Go</td></tr>
+        <tr><td><b>Faction</b></td><td>Uber Eats</td></tr>
         <tr><td><b>Hometown</b></td><td>Istanbul, Turkey</td></tr>
         <tr><td><b>Alignment</b></td><td>Chaotic Good</td></tr>
         <tr><td><b>Mood</b></td><td>Still learning. Tea nearby.</td></tr>
@@ -118,11 +118,11 @@
       <p align="center">
         <img src="https://img.shields.io/badge/%F0%9F%8C%BF_IN_PROGRESS-Trendyol_Go_by_Uber_Eats-E8B86D?style=for-the-badge&labelColor=2C2118" alt="Active quest" />
       </p>
-      <p>I work on Trendyol Go by Uber Eats: food and grocery delivery for millions.</p>
+      <p>I work on Uber Eats: food and grocery delivery for millions.</p>
       <p><b>Notice board</b></p>
       <ul>
         <li>Happy to talk software engineering, design systems, performance</li>
-        <li>Also up for code reviews and Vue architecture chats</li>
+        <li>Up for code reviews and architecture chats</li>
         <li>Things aren't always <code>#000000</code> and <code>#FFFFFF</code></li>
       </ul>
     </td>
@@ -146,7 +146,7 @@
     </td>
     <td width="50%" align="center" valign="top">
       <h3>DEX · 17</h3>
-      <code>█████████████████░░░</code><br /><br /><sub>Vue and UI work</sub>
+      <code>█████████████████░░░</code><br /><br /><sub>UI work</sub>
     </td>
   </tr>
   <tr>
@@ -178,27 +178,30 @@
     <td colspan="2" align="center">
       <img src="assets/spacer-900.png" alt="" />
       <h2>🧺 Satchel</h2>
-      <sub>what I use day to day</sub>
+      <sub>languages and tech from the trail so far</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <h3>Favorite tools</h3>
-      <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" /><br /><br />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /><br /><br />
+      <h3>Languages</h3>
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /><br /><br />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /><br /><br />
+      <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" /><br /><br />
+      <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" /><br /><br />
+      <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" /><br /><br />
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" /><br /><br />
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /><br /><br />
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
     </td>
     <td width="50%" align="center" valign="top">
-      <h3>Side pockets</h3>
+      <h3>Technologies</h3>
       <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" /><br /><br />
       <img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=vuedotjs&logoColor=black" alt="Pinia" /><br /><br />
-      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" /><br /><br />
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
       <br /><br />
       <h3>Workbench</h3>
       <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" /><br /><br />
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /><br /><br />
       <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
     </td>
   </tr>
