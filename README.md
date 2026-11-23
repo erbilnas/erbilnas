@@ -1,7 +1,7 @@
 <!--
   Erbil's GitHub Profile: cozy RPG character sheet (HTML UI)
-  GitHub sets .markdown-body table { width: max-content }, so % widths and
-  height="0" spacers do nothing. Force width with assets/spacer.png at 900px.
+  GitHub sets table { width: max-content } and img { max-width: 100% }.
+  Use assets/spacer.png as a real 900x1 image so max-content stretches.
   Theme: hearth amber (#E8B86D) on walnut (#2C2118)
 -->
 
@@ -19,7 +19,7 @@
 <table>
   <tr>
     <td colspan="2" align="center">
-      <img src="assets/spacer.png" width="900" height="1" alt="" />
+      <img src="assets/spacer.png" alt="" />
       <h2>☕ Inn doors</h2>
       <sub>links, basically</sub>
     </td>
@@ -55,7 +55,7 @@
 <table>
   <tr>
     <td colspan="2" align="center">
-      <img src="assets/spacer.png" width="900" height="1" alt="" />
+      <img src="assets/spacer.png" alt="" />
       <h2>🕯️ Hearth marks</h2>
       <sub>the usual GitHub numbers</sub>
     </td>
@@ -95,7 +95,7 @@
 <table>
   <tr>
     <td colspan="2" align="center">
-      <img src="assets/spacer.png" width="900" height="1" alt="" />
+      <img src="assets/spacer.png" alt="" />
     </td>
   </tr>
   <tr>
@@ -134,7 +134,7 @@
 <table>
   <tr>
     <td colspan="2" align="center">
-      <img src="assets/spacer.png" width="900" height="1" alt="" />
+      <img src="assets/spacer.png" alt="" />
       <h2>✨ Soft stats</h2>
       <sub>rough scores, don't take them too seriously</sub>
     </td>
@@ -176,7 +176,7 @@
 <table>
   <tr>
     <td colspan="2" align="center">
-      <img src="assets/spacer.png" width="900" height="1" alt="" />
+      <img src="assets/spacer.png" alt="" />
       <h2>🧺 Satchel</h2>
       <sub>what I use day to day</sub>
     </td>
@@ -241,7 +241,7 @@
 <table>
   <tr>
     <td align="center">
-      <img src="assets/spacer.png" width="900" height="1" alt="" />
+      <img src="assets/spacer.png" alt="" />
       <h2>📖 Story by the fire</h2>
       <img src="https://img.shields.io/badge/Chapter_I-A_quiet_introduction-E8B86D?style=for-the-badge&labelColor=2C2118" alt="Chapter I" />
       <br /><br />
@@ -263,7 +263,7 @@
 <table>
   <tr>
     <td colspan="2" align="center">
-      <img src="assets/spacer.png" width="900" height="1" alt="" />
+      <img src="assets/spacer.png" alt="" />
       <h2>📓 Craft journal</h2>
       <sub>GitHub stats</sub>
     </td>
@@ -289,7 +289,7 @@
 <table>
   <tr>
     <td align="center">
-      <img src="assets/spacer.png" width="900" height="1" alt="" />
+      <img src="assets/spacer.png" alt="" />
       <h2>🗺️ Trail map</h2>
       <sub>contributions this year</sub>
       <br /><br />
