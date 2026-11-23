@@ -122,6 +122,7 @@
       <img src="assets/spacer-hud.svg" alt="" />
       <br />
       <img src="assets/headers/active-contract.svg" alt="Active contract" />
+      <br /><br />
       <img src="https://img.shields.io/badge/%E2%96%A0_LIVE-Uber_Eats-BF5AF2?style=for-the-badge&labelColor=0A0612" alt="Active contract" />
       <br /><br />
       <div align="left">
